@@ -1,0 +1,21 @@
+body {
+background-image: url(../../img/pink_hana.PNG);
+background-repeat: space;
+background-attachment: scroll;
+background-position: inherit;
+}
+/* shorthand background has fixxed order */
+/* image-repeat-attachment-position-color(must last)
+wrong rule!!!*/
+ul {
+  list-style-image: url(../../img/pound.svg);
+}
+
+/* li {
+  不知道怎么横过来不变形和保留项目符号;
+} */
+html,body{
+  height: auto;
+  margin: 0;
+  padding: 0;
+}

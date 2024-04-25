@@ -1,0 +1,14 @@
+address {background-color: #333; text-align: center; font-style: normal;}
+a:link {color: #999; text-decoration: none;}
+a:visited {color: #999;}
+a:hover {color: #ff6347;}
+a:active {color: #ff6347;}
+
+a.nav:link {color: #999; text-decoration: none;}
+a.nav:visited {color: rgb(92, 180, 214);}
+a.nav:hover {color: #ff6347}
+a.nav:active {color: #ff6347;}
+
+div.top {text-align: right;}
+
+img#up-arrow {width: 5%; height: auto;}
