@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kazelife</title>
+    <link rel="stylesheet" href="index.css" media="all">
+
+</head>
+<!--  -->
+<header>
+  <h1 class="site-title"><a href="https://kazelife.com">kazelife.com</a></h1>
+  <nav class="site-nav">
+    <ul class="nav">
+      <li><a href="https://kazelife.com">首页</a></li>
+      <li><a href="https://kazelife.com/archives">归档</a></li>
+      <li><a href="https://kazelife.com/categories">分类</a></li>
+      <li><a href="https://kazelife.com/tags">标签</a></li>
+    </ul>
+  </nav>
+  <!-- <div class="site-search"> 内容充实后再搞-->
+  </div>
+</header>
+<!-- 以下是body -->
+<body>
+  <h2>TAGS</h2>
+  <ul>
+    <li>tag1</li>
+    <li>tag2</li>
+    <li>tag3</li>
+    <br>
+    <!-- <li>tag4</li>
+    <li>tag5</li>
+    <li>tag6</li>
+    <li>tag7</li> -->
+  </ul>
+  <!-- shape values:
+  default: 全部; rect: 矩形; circle: 圆; poly: 多边形; -->
+  <!-- coords values: (最左上角为0,0，向右向下为正)
+    全部: 不指定，包括img上所有未指定的区域
+    矩形: x1,y1,x2,y2=左上角,右下角
+    圆: x,y,radius=圆心坐标,半径
+    多边形:x1,y1,x2,y2,x3,y3,x4,y4,x5,y5…=从左上角开始绕一圈
+    椭圆怎么办？你可以画的是椭圆，实际上的判定区域是矩形或多边形都行的
+    三角形算什么？待测试。
+   -->
+  <p>
+  <img src="../source/img/life.png" alt="maptest" usemap="#mapname" width="200" height="200" >
+  <!-- 【设置了高宽却不生效的问题】 -->
+  <!-- style="height: 200; width: 200;"  -->
+  <!-- 【usemap不适应窗口变化的问题】
+  需要用到js了，因为坐标不能是死的，而是动态的 -->
+  <map name="mapname">
+    <area
+      shape="rect"
+      coords="223,77,350,350"
+      href="https://developer.mozilla.org/"
+      target="_blank"
+      alt="我是说明文字" >
+  </map>
+  </p>
+    <!-- target默认_self，还有_blank和_top，_parent，作用待测试:
+    _self: 在当前页面打开新标签页，会覆盖起点
+    _blank: 打开新标签页并跳转，起点还在，但被放到后台了
+    _top: 没发现跟_blank的区别
+    _parent: 没发现跟_self的区别
+    -->
+    <!-- 这里的alt不能少，能不能留空待测试；这个alt不能再包含标签-->
+    <!-- area没有闭合标签 -->
+</body>
+<!-- 以下是footer -->
+<footer>
+  <address>
+  <br>
+  <pre style="font-size: x-large; line-height: 1; margin: 0; border: 0; padding: 0; "><a href="https://kazelife.com"; class="nav";>首页</a> | <a href="https://kazelife.com/archives"; class="nav";>归档</a> | <a href="https://kazelife.com/categories"; class="nav";>分类</a> | <a href="https://kazelife.com/tags"; class="nav";>标签</a></pre>
+  <br>
+  <a href="https://kazelife.com">&#169; 2024 kazelife.com
+  <!-- All rights reserved. -->
+  </a>
+  <br>
+  <a href="mailto: kazelife@outlook.com">Send me a mail!^-^</a>
+  <!-- <div class="top"><a href="#">Back to Top</a></div> -->
+  <div class="top"><a href="#"><img src="../source/img/arrow_up.svg" alt="back to top" id="up-arrow"></a></div>
+  </address>
+</footer>
+
+</html>
