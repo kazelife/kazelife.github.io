@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TABLE</title>
+  <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+<table class="pee" border="1">
+  <!-- border默认1，但不写就默认没框线了；width优先使用%而不是px -->
+  <!-- 也能用style控制border，更精细，比如style="width: 20%; border: 5px solid #2F88FF;" -->
+  <!-- 想要同时控制所有单元格的边框，就去单独开个css，选择器指定table, th, td -->
+  <caption>
+    <details>
+      <summary>Bladder Diary</summary><!-- 用-会自动分行，不知是规定还是其他原因→是因为表格还没做，会根据表格宽度自动居中 -->
+      <p>This table is my Bladder Diary.</p>
+      <!-- 自动分行的原因不明→是因为根据表格宽度自动调整的，而你还没做表格呢 -->
+      <!-- 没藏进去的原因是因为details标签没写 -->
+    </details>
+  </caption>
+
+  <!-- 不会用，先不管了 -->
+  <colgroup span="2" style="width: 40%; background-color: pink;"></colgroup>
+
+  <!-- tr>th*4=做A行，表头有4列 -->
+  <tr>
+    <th>time</th>
+    <th>urgency</th>
+    <th>duration</th>
+    <th>volume</th>
+  </tr>
+  <!-- tr>td*4=做B行，数据跟表头一样，有4列 -->
+  <tr>
+    <td>00:15</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+  </tr>
+  <!-- 有几行是用一行行的tr加上去的，这里做第3行C行→错了！不用这么蠢，直接  (tr>td*4)*3 就行了-->
+  <tr>
+    <td>10:25</td>
+    <td>3</td>
+    <td>6</td>
+    <td>3</td>
+  </tr>
+  <!-- 没显示表格的框线为什么？<table border="">默认为1 -->
+  <!-- 第4行做空格测试+合并单元格测试 -->
+  <tr>
+    <td colspan="2"></td> <!-- 每多合并1格就要少写一个td: 本行少写-->
+    <td rowspan="2"></td> <!-- 每多合并1格就要少写一个td: 下行少写 -->
+    <td><br></td>
+  </tr>
+  <!-- 直接空着或加br都行，直接空着更简单，但高度会矮，br会保持跟有数据的高度一样 -->
+  <tr>
+    <td></td>
+    <td></td>
+    <td><br></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><br></td>
+  </tr>
+</table>
+
+<div>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non quam suscipit mi pulvinar feugiat. Integer vel volutpat magna. Nulla massa ligula, iaculis eu convallis quis, dictum nec ex. Mauris non condimentum nulla, a venenatis nisi. In at accumsan ligula. Sed euismod massa vitae mauris consectetur, sed accumsan velit sagittis. Ut vel nulla blandit, blandit massa sed, tincidunt purus. Vivamus semper, lorem sit amet tincidunt euismod, eros eros scelerisque urna, vitae pulvinar nisl nisi id tellus. Donec eget leo a nisl consectetur pharetra nec sed arcu. Nam eget luctus nunc, nec posuere purus. Nullam eget arcu diam. Aenean nibh lorem, vehicula non elit ac, fermentum sollicitudin risus. Duis accumsan lacus id auctor blandit. Duis lectus nisi, malesuada at est a, dictum facilisis enim.Vivamus semper, lorem sit amet tincidunt euismod, eros eros scelerisque urna, vitae pulvinar nisl nisi id tellus. Donec eget leo a nisl consectetur pharetra nec sed arcu. Nam eget luctus nunc, nec posuere purus. Nullam eget arcu diam. Aenean nibh lorem, vehicula non elit ac, fermentum sollicitudin risus. Duis accumsan lacus id auctor blandit. Duis lectus nisi, malesuada at est a, dictum facilisis enim. fermentum sollicitudin risus. Duis accumsan lacus id auctor blandit. Duis lectus nisi, malesuada at est a, dictum facilisis enim. fermentum sollicitudin risus. Duis accumsan lacus id auctor blandit. Duis lectus nisi, malesuada at est a, dictum facilisis enim.
+  </p>
+</div>
+
+<div class="test">
+<table class="align">
+  <caption>
+    <details>
+      <summary>All Alignments</summary>
+      <p>This chart shows how different alignments looks like.</p>
+    </details>
+  </caption>
+  <tr>
+    <th></th>
+    <th>left</th>
+    <th>center</th>
+    <th>right</th>
+  </tr>
+  <tr>
+    <td class="rowa">top</td>
+    <td id="left-top"><img src="../source/img/star.svg"></td>
+    <td id="center-top"><img src="../source/img/star.svg"></td>
+    <td id="right-top"><img src="../source/img/star.svg"></td>
+  </tr>
+  <tr>
+    <td class="rowa">middle</td>
+    <td id="left-middle"><img src="../source/img/star.svg"></td>
+    <td id="center-middle"><img src="../source/img/star.svg"></td>
+    <td id="right-middle"><img src="../source/img/star.svg"></td>
+  </tr>
+  <tr>
+    <td class="rowa">bottom</td>
+    <td id="left-bottom"><img src="../source/img/star.svg"></td>
+    <td id="center-bottom"><img src="../source/img/star.svg"></td>
+    <td id="right-bottom"><img src="../source/img/star.svg"></td>
+  </tr>
+</table>
+</div>
+
+<div class="bordertest">
+<table class="stretch">
+  <tr>
+    <th></th>
+    <th>left</th>
+    <th>center</th>
+  </tr>
+  <tr>
+    <td>top</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="round">
+  <tr>
+    <th></th>
+    <th>left</th>
+    <th>center</th>
+  </tr>
+  <tr>
+    <td>top</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+<table class="space">
+  <tr>
+    <th></th>
+    <th>left</th>
+    <th>center</th>
+  </tr>
+  <tr>
+    <td>top</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="repeat">
+  <tr>
+    <th></th>
+    <th>left</th>
+    <th>center</th>
+  </tr>
+  <tr>
+    <td>top</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+
+<div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non quam suscipit mi pulvinar feugiat. Integer vel volutpat magna. Nulla massa ligula, iaculis eu convallis quis, dictum nec ex. Mauris no</p>
+</div>
+
+</body>
+</html>
