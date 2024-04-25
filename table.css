@@ -45,7 +45,7 @@ th, td {
   border: 28px ridge rgb(192, 183, 183);
   /* border简写最多能设置3个：宽度 风格 颜色
   还可以单独写一个border-image*/
-  border-image: url(../source/img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px stretch;
+  border-image: url(../img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px stretch;
   /* 默认就是stretch */
   /* 写法很特殊，用了斜杠和空格:
   source / slice / width / outset repeat */
@@ -59,7 +59,7 @@ th, td {
   border: 28px ridge rgb(192, 183, 183);
   /* border简写最多能设置3个：宽度 风格 颜色
   还可以单独写一个border-image*/
-  border-image: url(../source/img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px round;
+  border-image: url(../img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px round;
   margin: 20px;
   padding: 5px;
 }
@@ -67,7 +67,7 @@ th, td {
 .space {
   width: 5%;
   border: 28px ridge rgb(192, 183, 183);
-  border-image: url(../source/img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px space;
+  border-image: url(../img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px space;
   margin: 20px;
   padding: 5px;
 }
@@ -75,7 +75,7 @@ th, td {
 .repeat {
   width: 5%;
   border: 28px ridge rgb(192, 183, 183);
-  border-image: url(../source/img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px repeat;
+  border-image: url(../img/diamond.png) 27 / 36px 36px 36px 36px / 18px 14px 9px 4px repeat;
   margin: 20px;
   padding: 5px;
 }
@@ -92,7 +92,7 @@ div.bordertest {
 .align {
   width: 70%;
   padding: 10px; /* 不设置padding会导致上面的diary跟表格外边框吸太牢了，但设置了 border-collapse: collapse;的话padding就失效了 */
-  border-image: url(../source/img/leaf_text.png) 36 / 36px / 18px round;
+  border-image: url(../img/leaf_text.png) 36 / 36px / 18px round;
   /* 图片失效原因不明 */
   margin-left: auto;
   margin-right: auto;
