@@ -1,5 +1,5 @@
 body {
-background-image: url(img/pink_hana.PNG);
+background-image: url(/img/pink_hana.PNG);
 background-repeat: space;
 background-attachment: scroll;
 background-position: inherit;
@@ -8,7 +8,7 @@ background-position: inherit;
 /* image-repeat-attachment-position-color(must last)
 wrong rule!!!*/
 ul {
-  list-style-image: url(img/pound.svg);
+  list-style-image: url(/img/pound.svg);
 }
 
 /* li {
