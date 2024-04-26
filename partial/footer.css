@@ -9,6 +9,6 @@ a.nav:visited {color: rgb(92, 180, 214);}
 a.nav:hover {color: #ff6347}
 a.nav:active {color: #ff6347;}
 
-div.top {text-align: right;}
+div.back-to-top {text-align: right;}
 
 img#up-arrow {width: 5%; height: auto;}
