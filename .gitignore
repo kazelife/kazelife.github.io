@@ -1,6 +1,4 @@
 /.git
-/node_modules
-/.deploy_git
 *.txt
 *.log
 *.lnk
