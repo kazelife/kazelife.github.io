@@ -1,0 +1,18 @@
+:root {
+  text-align: center;
+  font-family: Inter, "Microsoft YaHei", "微软雅黑", sans-serif;
+  /* Inter用于en，"Microsoft Yahei"用于zh-CN，sans-serif用于保底 */
+  /* 加引号是因为中间有空格：Font family names containing whitespace should be quoted. */
+  /* 有没有设置成功的验证法：
+  http://127.0.0.1:3000/about.html
+  浏览器打开本地网站识别一下渲染成什么字体了 */
+  /* 没设置成功，是monospace的NSimSun。
+  为什么没生效？
+  1. 浏览器字体取决于电脑自带的→Inter已经安装进去了，微软雅黑自带的→难道是不能叫"Microsoft Yahei"而要叫字体库里显示的名称"微软雅黑"吗？→经测试，没用→有个问题，没安装就不能在浏览器显示的话，那为什么我能看到Mozilla的Inter字体？；
+  2. Chrome的锅→不是，Firefox上也没生效；
+  3. 字体路径必须以src: url("字体名.ttf");的形式导入到CSS？不测试就觉得可行了，但我不希望这么做；
+  4. 不是"Microsoft Yahei"，是"Microsoft YaHei"，注意h要大写→改正了，不过还是没用；
+  5. 写一个不够，英中都写上→么用；
+  6.
+  */
+}
