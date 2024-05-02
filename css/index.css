@@ -4,28 +4,65 @@
 }
 
 #main {
+  background-color: #d8efd3;
   overflow: auto;
   text-align: center;
 }
 
 li a {
+  background-color: #d8efd3;
   text-decoration: none;
-  display: inline-block;
-  height: 40px;
-  width: 250px;
-  color: rgb(12, 98, 196);
-  background-color: #7abcca3c;
+  display: block;
+  width: 230px;
+  height: auto;
+  color: #528265;
   line-height: 40px;
 }
 
-footer {
-  text-decoration: none;
-  text-align: center;
-  background-color: rgb(216, 239, 211);
+aside strong {
+  margin-top: 10px;
+  color: #0e83cd;
+  padding: 10px 10px;
+  display: inline-block;
 }
 
+aside a {
+  display: block;
+  color: #444;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: 1;
+  position: relative;
+  width: 100%;
+}
+
+aside li a {
+  background-color: #d3e3f0;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: auto;
+  color: #174885;
+  line-height: 40px;
+}
+
+.left {
+  float: left;
+  width: 30%;
+  margin-left: 200px;
+  margin-top: -150px;
+}
+
+.right {
+  float: right;
+  width: 30%;
+  margin-right: 200px;
+  margin-top: -150px;
+}
+
+
 li a:hover {
-  background-color: rgb(158, 217, 222);
+  background-color: rgb(238, 205, 179);
 }
 
 ul {
@@ -52,5 +89,10 @@ ul {
   position: absolute;
 }
 
+footer {
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(216, 239, 211);
+}
 
 
