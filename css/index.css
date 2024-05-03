@@ -1,68 +1,36 @@
 * {
   padding: 0;
   margin: 0;
+
 }
 
 #main {
-  background-color: #d8efd3;
   overflow: auto;
   text-align: center;
+  margin-top: -50px;
+  margin-left: 100px;
 }
 
 li a {
-  background-color: #d8efd3;
+  background-color: black;
   text-decoration: none;
   display: block;
   width: 230px;
   height: auto;
-  color: #528265;
+  color: white;
   line-height: 40px;
 }
 
-aside strong {
-  margin-top: 10px;
-  color: #0e83cd;
-  padding: 10px 10px;
-  display: inline-block;
-}
-
-aside a {
-  display: block;
-  color: #444;
-  text-decoration: none;
-  padding: 10px 20px;
-  line-height: 1;
-  position: relative;
-  width: 100%;
-}
-
-aside li a {
-  background-color: #d3e3f0;
-  text-decoration: none;
-  display: block;
-  width: 100px;
-  height: auto;
-  color: #174885;
-  line-height: 40px;
-}
-
-.left {
+.post-pic {
   float: left;
   width: 30%;
   margin-left: 200px;
-  margin-top: -150px;
+  margin-top: 20px;
 }
-
-.right {
-  float: right;
-  width: 30%;
-  margin-right: 200px;
-  margin-top: -150px;
-}
-
 
 li a:hover {
-  background-color: rgb(238, 205, 179);
+  background-color: white;
+  color: black;
 }
 
 ul {
@@ -88,11 +56,3 @@ ul {
   display: none;
   position: absolute;
 }
-
-footer {
-  text-decoration: none;
-  text-align: center;
-  background-color: rgb(216, 239, 211);
-}
-
-
