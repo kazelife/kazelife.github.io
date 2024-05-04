@@ -1,8 +1,0 @@
-nav, ul, ul li {display: inline;}
-nav {font-size: 1.1em; }
-ul {padding-left: 0em; }
-
-a:link {color: #999; text-decoration: none;}
-a:visited {color: #999;}
-a:hover {color: #ff6347;}
-a:active {color: #ff6347;}

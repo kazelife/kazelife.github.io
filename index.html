@@ -3,77 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我TM删删删!</title>
-  <link rel="stylesheet" href="css/index.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="">
   <style>
+    html {
+      height: 100%;
+      box-sizing: border-box;
+    }
 
+    body {
+      height: 100%;
+      background-color: #fff;
+      color: #333;
+      font:
+        1.2em / 1.5 Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: inherit;
+    }
+
+    section {
+      height: 100%;
+    }
+
+    .wrapper {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    .page-header,
+    .page-footer {
+      background-color: rgb(75, 70, 74);
+      color: #fff;
+      padding: 20px;
+    }
+
+    .page-body {
+      padding: 20px;
+    }
   </style>
-
 </head>
-<!-- -->
-<header>
-  <div>
-    <a href="//kazelife.com"><img src="img/logo.svg" alt="logo" width="8%"></a>
-    <!-- 右边再加搜索栏和dark mode，后期再加设置、语言和用户-->
-  </div>
-  <div id="main">
-    <ul id="list">
-      <li><a href="/Windows.html">Win10系统极简</a>
-        <ul>
-          <li><a href="#">简单好用的开始菜单</a></li>
-          <li><a href="#">自定义多级右键菜单</a></li>
-          <li><a href="#">清爽干净的搜索界面</a></li>
-          <li><a href="#">只放最常用的任务栏</a></li>
-        </ul>
-      </li>
-      <li><a href="Chrome.html">谷歌浏览器极简</a>
-        <ul>
-          <li><a href="">怎么安装旧版本</a></li>
-          <li><a href="">怎么不提示更新</a></li>
-          <li><a href="">实用扩展推荐</a></li>
-          <li><a href="">菜单栏</a></li>
-          <li><a href="">书签</a></li>
-        </ul>
-      </li>
-      <li><a href="Excel.html">Excel极简</a>
-        <ul>
-          <li><a href="">【无广告+轻量化】电子表格</a></li>
-          <li><a href="">怎么设置模板</a></li>
-          <li><a href="">自定义右键菜单</a></li>
-        </ul>
-      </li>
-      <li><a href="/Windows.html">Win10系统极简</a>
-        <ul>
-          <li><a href="#">简单好用的开始菜单</a></li>
-          <li><a href="#">自定义多级右键菜单</a></li>
-          <li><a href="#">清爽干净的搜索界面</a></li>
-          <li><a href="#">只放最常用的任务栏</a></li>
-        </ul>
-      </li>
-      <li><a href="/Windows.html">Win10系统极简</a>
-        <ul>
-          <li><a href="#">简单好用的开始菜单</a></li>
-          <li><a href="#">自定义多级右键菜单</a></li>
-          <li><a href="#">清爽干净的搜索界面</a></li>
-          <li><a href="#">只放最常用的任务栏</a></li>
-        </ul>
-      </li>
 
-    </ul>
-  </div>
-</header>
-<div style="display: flex; flex-direction: column; min-height: 100%;">
 <body>
-
-  <div>
-    <img class="post-pic" src="img/banner.jpg">
-  </div>
-  <div>
-    <img class="post-pic" src="img/banner.jpg">
-  </div>
+  <section>
+    <div class="wrapper">
+      <header class="page-header">This is the header</header>
+      <main class="page-body">
+        <p>
+          Main page content here, add more if you want to see the footer push
+          down.
+        </p>
+      </main>
+      <footer class="page-footer">Sticky footer</footer>
+    </div>
+  </section>
 </body>
-<footer>
-  <img src="img/copyright.svg" style="display: block; max-width: 100%; width: 28%; height: auto; margin-left: auto; margin-right: auto; margin-top: 15px;">
-</footer>
-</div>
 </html>
