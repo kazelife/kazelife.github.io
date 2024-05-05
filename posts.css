@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.breadcrumb {margin-top: 1%; margin-left: 8%;}
+.breadcrumb ul, .breadcrumb li {display: inline;}
+.breadcrumb a:link {color: #333; text-decoration: none;}
+.breadcrumb a:visited {color: #333;}
+.breadcrumb a:hover {color: #ff6347;}
+
+.box3 ul, .box3 li {display: inline;}
+.box3 a:link {color: #333; text-decoration: none;}
+.box3 a:visited {color: #333;}
+.box3 a:hover {color: #ff6347;}
+
+.box1 {
+  background-color: #fff;
+  color: #666;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  background-color: #999;
+}
+.box2 ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 10%;
+}
+.box2 li {
+  margin-right: 2%;
+}
+.box2 a:link {
+  color: #666;
+  padding: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+}
+.box2 a:visited {
+  color: #666;
+}
+.box2 a:hover {
+  color: #fff;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.left {
+  flex: 1;
+  margin-left: 10%;
+  margin-right: 2%
+}
+.right {
+  flex: 1;
+  margin-left: 0;
+  margin-right: 5%;
+}
+.left > div, .right > div{
+  display: flex;
+  margin-bottom: 20px;
+  border: solid #f3ecec;
+  border-radius: 0.5em;
+}
+.left img, .right img{
+  width: 30%;
+}
+.left h1, .right h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: #5A4034;
+}
+.head1 h1 {
+  background-color: #92d1ee;
+  border-radius: 0.5em;
+}
+.head2 h1 {
+  background-color: #eca3ba;
+  border-radius: 0.5em;
+}
+.head3 h1 {
+  background-color: #9dd4c8;
+  border-radius: 0.5em;
+}
+.head4 h1 {
+  background-color: #F7E68A;
+  border-radius: 0.5em;
+}
+.top div, .bottom div{
+  margin-top: 4%;
+  margin-bottom: 5%;
+  min-width: 150px;
+  border-radius: 0.5em;
+}
+.box3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box3 li {
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+  margin: 0.5em;
+  /* flex: rem; */
+}
+
+.top, .bottom {
+  flex-direction: column;
+  text-align: center;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #E1F7CF;
+  color: #5A4034;
+  border-radius: 1em;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+  padding-top: 1rem;
+}

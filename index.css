@@ -19,11 +19,19 @@
   list-style-type: none;
   margin-left: 10%;
 }
+
+.box2 li {
+  margin-right: 2%;
+}
+
 .box2 a:link {
   color: #666;
   padding: 0.5rem;
   display: inline-block;
   text-decoration: none;
+}
+.box2 a:visited {
+  color: #666;
 }
 .box2 a:hover {
   color: #fff;
