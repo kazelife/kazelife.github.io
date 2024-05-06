@@ -1,0 +1,4 @@
+23/06/15
+tab to select a prediction candidate怎么删除？
+→
+右键あ，Properties，Advanced，Predictive Input，取消勾选"Use predictive input system"，OK

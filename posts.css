@@ -7,12 +7,12 @@
 .breadcrumb ul, .breadcrumb li {display: inline;}
 .breadcrumb a:link {color: #333; text-decoration: none;}
 .breadcrumb a:visited {color: #333;}
-.breadcrumb a:hover {color: #ff6347;}
+.breadcrumb a:hover {color: #333; font-weight: bold;}
 
 .box3 ul, .box3 li {display: inline;}
-.box3 a:link {color: #333; text-decoration: none;}
-.box3 a:visited {color: #333;}
-.box3 a:hover {color: #ff6347;}
+.box3 a:link {color: #5A4034; text-decoration: none;}
+.box3 a:visited {color: #5A4034;}
+.box3 a:hover {color: #5A4034; font-weight: bold;}
 
 .box1 {
   background-color: #fff;
@@ -75,19 +75,19 @@
   font-weight: 500;
   color: #5A4034;
 }
-.head1 h1 {
+.head1 h1, .left .top ul li{
   background-color: #92d1ee;
   border-radius: 0.5em;
 }
-.head2 h1 {
+.head2 h1, .left .bottom ul li{
   background-color: #eca3ba;
   border-radius: 0.5em;
 }
-.head3 h1 {
+.head3 h1, .right .top ul li{
   background-color: #9dd4c8;
   border-radius: 0.5em;
 }
-.head4 h1 {
+.head4 h1, .right .bottom ul li{
   background-color: #F7E68A;
   border-radius: 0.5em;
 }
@@ -105,13 +105,11 @@
   flex-wrap: wrap;
 }
 .box3 li {
-  background-color: #4d7298;
-  border: 2px solid #77a6b6;
+  border: 2px solid #f3ecec;
   border-radius: 0.5em;
-  color: #fff;
+  color: #5A4034;
   padding: 0.5em;
   margin: 0.5em;
-  /* flex: rem; */
 }
 
 .top, .bottom {

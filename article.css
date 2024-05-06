@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-/* .breadcrumb {margin-top: 1%; margin-left: 8%;} */
+.breadcrumb {margin-top: 1%; margin-left: 8%;}
 .breadcrumb ul, .breadcrumb li {display: inline;}
 .breadcrumb a:link {color: #333; text-decoration: none;}
 .breadcrumb a:visited {color: #333;}
@@ -45,72 +45,53 @@
   display: flex;
   flex-direction: row;
   margin-top: 1%;
-  height: 100vh;
-  /* 设置100vh的height就能实现他和他儿子都有固定高度了 */
 }
 .article {
-  flex: 2;
+  flex: 3;
   color: #5A4034;
   border: solid #f3ecec;
   border-radius: 1em;
   margin-left: 10%;
   margin-right: 5%;
+  margin-bottom: 5%;
   /* 注意跟首页保持一致 */
+  height: 80%;
 }
 .content {
   margin-top: 5%;
   margin-right: 8%;
   margin-left: 8%;
+  margin-bottom: 5%;
 }
-img {
+.img1 {
   width: 100%;
-  border-radius: 1em;
   margin-bottom: 3%;
+}
+.img2 {
+  width: 70%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 4%;
+}
+
+.content h2 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.content li {
+  margin-bottom: 1%;
 }
 
 .sidebar {
   flex: 1;
-  /* background-color: #E1F7CF; */
+  background-color: #E1F7CF;
   color: #5A4034;
   border-radius: 1em;
   margin-right: 10%;
   margin-bottom: 5%;
 }
-/* 以下是固定住box1、box2、breadcrumb、sidebar的代码 */
-.box1 {
-  position: fixed;
-  width: 100%;
-  height: 15%;
-  top: 0;
-  margin-top: 0;
-}
-.box2 {
-  position: fixed;
-  width: 100%;
-  height: 6%;
-  top: 11.2vh;
-}
-.breadcrumb {
-  position: fixed;
-  width: 100%;
-  height: 5%;
-  top: 17vh;
-  background-color: #f7dddd;
-  padding-top: 4px;
-  padding-left: 8%;
-}
-.box3 {
-  margin-top: 11%;
-}
-.menu {
-  position: fixed;
-  background-color: antiquewhite;
-  height: 6%;
-  top: 15vh;
-  right: 0;
-}
-/* 菜单位置设置top没用，待解决 */
-/* 固定结束 */
+
 .menu {
   margin-top: 20%;
   margin-right: 8%;
@@ -118,12 +99,13 @@ img {
 }
 .menu h1 {
   font-size: 1.5rem;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 
 .menu li {
-  margin-left: -10%;
   font-size: 1.2rem;
+  margin-left: -10%;
+  margin-bottom: 5%;
 }
 
 .menu a:link {color: #5A4034;text-decoration: none;}

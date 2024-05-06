@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Win10搜索极简</title>
+  <link rel="stylesheet" href="article.css">
+</head>
+<body>
+  <div class="box1">
+    <div class="title">
+      <h1>kazelife.com</h1>
+      <h3>minimal tips site</h3>
+    </div>
+  </div>
+  <div class="box2">
+    <ul class="navbar">
+      <li><a href="/">Home</a></li>
+      <li><a href="posts.html" style="color: #fff;">Posts</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+  <div class="breadcrumb">
+    <ul>
+      <li><a href="/">主页</a> &#62; </li>
+      <li><a href="posts.html">文章</a> &#62; </li>
+      <li><a href="windows-search.html">Win10搜索极简</a></li>
+    </ul>
+  </div>
+  <div class="box3">
+    <div class="article">
+      <div class="content">
+        <img class="img1" src="windows/windows-search/windows-search.jpg" alt="windows-search">
+        <h1>还你一个干净的Win10搜索界面</h1>
+        <h2 id="1">怎么关【推荐】</h2>
+        <ol>
+          <li>Win+I</li>
+          <li>搜索</li>
+          <li>开启"此设备上的搜索历史记录"</li>
+        </ol>
+        <h2 id="2">怎么关【热门应用】</h2>
+        <ol>
+          <li>没找到办法</li>
+        </ol>
+        <h2 id="3">怎么关【热门搜索】</h2>
+        <ol>
+          <li>Win+R</li>
+          <li>regedit</li>
+          <li>计算机\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows</li>
+          <li>点Windows，右键，新建，项，重命名为explorer</li>
+          <li>点explorer，右键，新建，DWORD (32位)值，重命名为DisableSearchBoxSuggestions</li>
+          <li>数值数据从0改为1，确定</li>
+          <li>重启电脑后即可生效</li>
+        </ol>
+        <h2 id="4">怎么关【最近】</h2>
+        <img class="img2" src="windows/windows-search/recent.jpg" alt="recent">
+        <ol>
+          <li>鼠标移到右边</li>
+          <li>按×</li>
+          <li>注意：至少得留一个最近才能保证左侧栏不被推荐占据</li>
+        </ol>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="menu">
+        <h1>Win10搜索极简</h1>
+        <ol>
+          <li><a href="windows-search.html#1">怎么关【推荐】</a></li>
+          <li><a href="windows-search.html#2">怎么关【热门应用】</a></li>
+          <li><a href="windows-search.html#3">怎么关【热门搜索】</a></li>
+          <li><a href="windows-search.html#4">怎么关【最近】</a></li>
+        </ol>
+        <p>※注册表对大小写不敏感</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
