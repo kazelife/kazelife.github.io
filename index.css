@@ -52,7 +52,7 @@
 .article > div {
   display: flex;
   margin-bottom: 30px;
-  border: solid #999;
+  border: solid #f3ecec;
   align-items: center;
 }
 .article img {
