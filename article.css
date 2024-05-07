@@ -64,11 +64,11 @@
   margin-bottom: 5%;
 }
 .img1 {
-  width: 100%;
+  width: 65%;
   margin-bottom: 3%;
 }
 .img2 {
-  width: 70%;
+  width: 50%;
   margin-top: 1%;
   margin-bottom: 2%;
   margin-left: 4%;
@@ -77,6 +77,15 @@
 .content h2 {
   margin-top: 2%;
   margin-bottom: 1%;
+}
+.content h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: -3%;
+}
+.content p {
+  margin-top: 1%;
+  margin-left: -3%;
 }
 
 .content li {
