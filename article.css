@@ -9,7 +9,7 @@
 .breadcrumb a:visited {color: #333;}
 .breadcrumb a:hover {color: #ff6347;}
 
-.date {display: flex;}
+.date {display: flex; margin-top: 1%;}
 .date-published {margin-right: 6%;}
 
 .box1 {
@@ -114,6 +114,10 @@
   margin-bottom: 6%;
 }
 
+.menu h2 {
+  margin-bottom: 3%;
+}
+
 .menu li {
   font-size: 1.2rem;
   margin-left: -10%;
@@ -123,4 +127,10 @@
 .menu a:link {color: #5A4034;text-decoration: none;}
 .menu a:visited {color: #5A4034;}
 .menu a:hover {color: #fff;background-color: #4976f5;}
+
+.back-to-top {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1250%;
+}
 
