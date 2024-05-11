@@ -7,8 +7,9 @@
   <link rel="stylesheet" href="">
   <style>
 * {padding: 0;margin: 0;}
-#main {
-  text-align: center;
+.container {
+  display: flex;
+  justify-content: center;
   margin-top: 10%;
   font-size: 3rem;
 }
@@ -17,16 +18,12 @@ a {
   text-decoration: none;
   color: #333;
 }
-.select span {
-  border-bottom: 0.1rem solid;
-  padding-left: 5rem;
-  padding-right: 5rem;
-
+.submenu {
+  display: none;
 }
 .submenu li {
   font-size: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 .submenu a {
   height: 1rem;
@@ -37,23 +34,28 @@ a {
 a:hover {color: #999;}
 ul {list-style: none;}
 
-
-#list>li:hover ul {
-  display: block;
+.menu:nth-child(1):hover .submenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-#list>li>ul {
-  display: none;
-  position: absolute;
-  left: 50px;
-  right: 50px;
+.menu:nth-child(1)::before {content: "make\00a0";}
+.menu:nth-child(1)::after {content: "\00a0 easier";}
+.menu:nth-child(1) {
+  display: flex;
+}
+.line {
+  border-bottom: 0.1rem solid;
+  width: 10rem;
+  height: 3.5rem;
+  /* 越小线越高 */
 }
   </style>
 </head>
 <body>
-  <div id="main">
-    <ul id="list">
-      <li>make&nbsp<a class="select" href="posts.html"><span></span></a>&nbspeasier
+  <div class="container">
+    <ul class="menu">
+      <li><a class="select" href="posts.html"><div class="line"></div></a>
         <ul class="submenu">
           <li><a href="windows-search.html">Windows Search</a></li>
           <li><a href="start-menu.html">Start Menu</a></li>
