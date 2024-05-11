@@ -32,7 +32,7 @@ a {
 }
 ul {list-style: none;}
 a:hover {color: #999;}
-/* .select:visited {color: #333;} */
+.select:visited {color: #333;}
 
 .menu:nth-child(1):hover .submenu{
   display: flex;
@@ -57,9 +57,10 @@ a:hover {color: #999;}
   <div class="container">
     <ul class="menu">
       <li>
-        <!-- <a class="select" href="posts.html"> -->
+        <!-- 下划线的链接去了后pad就打不开submenu了 -->
+        <a class="select" href="/">
           <div class="line"></div>
-        <!-- </a> -->
+        </a>
         <ul class="submenu">
           <li><a href="calibre.html">Calibre</a></li>
           <li><a href="windows-search.html">Windows Search</a></li>
