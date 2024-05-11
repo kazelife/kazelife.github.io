@@ -1,0 +1,40 @@
+24/04/14
+首选项→页面布局→卷轴模式
+——————
+但是这个卷轴模式不行，章节内部顺利，跳章还是闪现，很难用。
+→
+需求：像浏览网页一样顺滑
+——————
+关键词
+【flow mode】
+【not continuous】
+【stop chapter snapping】
+【avoid line clipping】
+【stop chapter jumping】
+【flow more smoothly】
+【endlessly】
+【no stop/break scrolling】
+——————
+尝试方法：
+Use paged mode or if you want to use flow mode, open the book in the edit book tool and merge all the individual files together.
+用编辑图书的软件把所有page合成一个→理论上绝对可行，弊端暂且未知。
+方法来源：https://www.mobileread.com/forums/showthread.php?t=327234
+（我才发现回答者就是开发者本人——印度老哥kovidgoyal！
+你看，官方不是不知道这个问题的存在，而是根本不想解决，因为他们认为这并不是个问题，只需要你merge一下就能解决的事算不上问题！）
+——
+什么软件？
+calibre编辑器
+——
+怎么用？怎么让epub的书显示成很多个html（除了转换格式的方式）？又怎么把这些html合成一个？
+官方攻略：
+https://manual.calibre-ebook.com/zh_CN/edit.html
+具体步骤：
+右键书→编辑书籍→
+可以看到左边的“文件浏览器”里是一长排的index_split_001.html还有下面的css和jpg，目标是把它们合成一个文件，怎么merge？
+——————
+新的问题：
+怎么一键合并所有html？总不可能用Ctrl一个个选吧？也不能拉框？
+Ctrl+A行吗？不行。
+→
+右键“文本”，“选择所有的文本文件”
+——————

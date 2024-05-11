@@ -1,136 +1,31 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
-.breadcrumb {margin-top: 1%; margin-left: 8%;}
-.breadcrumb ul, .breadcrumb li {display: inline;}
-.breadcrumb a:link {color: #333; text-decoration: none;}
-.breadcrumb a:visited {color: #333;}
-.breadcrumb a:hover {color: #ff6347;}
-
-.date {display: flex; margin-top: 1%;}
-.date-published {margin-right: 6%;}
-
-.box1 {
-  background-color: #fff;
-  color: #666;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-.box2 {
-  background-color: #999;
-}
-.box2 ul {
-  display: flex;
-  list-style-type: none;
-  margin-left: 10%;
-}
-.box2 li {
-  margin-right: 2%;
-}
-.box2 a:link {
-  color: #666;
-  padding: 0.5rem;
-  display: inline-block;
-  text-decoration: none;
-}
-.box2 a:visited {
-  color: #666;
-}
-.box2 a:hover {
-  color: #fff;
-}
-
-.box3 {
-  display: flex;
-  flex-direction: row;
-  margin-top: 1%;
-}
-.article {
-  flex: 3;
-  color: #5A4034;
-  border: solid #f3ecec;
-  border-radius: 1em;
-  margin-left: 10%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  /* 注意跟首页保持一致 */
-  height: 80%;
-}
-.content {
-  margin-top: 5%;
-  margin-right: 8%;
-  margin-left: 8%;
-  margin-bottom: 5%;
-}
-.img1 {
-  width: 65%;
-  margin-bottom: 3%;
-}
-.img2 {
-  width: 50%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  margin-left: 4%;
-}
-
-.content h2 {
-  margin-top: 2%;
-  margin-bottom: 1%;
-}
-.content h3 {
+nav {
+  display: block;
+  border-bottom: 1px solid #c0c0c0;
   margin-top: 1%;
   margin-bottom: 1%;
-  margin-left: -3%;
-}
-.content p {
-  margin-top: 1%;
-  margin-left: -3%;
-}
-
-.content li {
-  margin-bottom: 1%;
-}
-
-.sidebar {
-  flex: 1;
-  background-color: #E1F7CF;
-  color: #5A4034;
-  border-radius: 1em;
-  margin-right: 10%;
-  margin-bottom: 5%;
-}
-
-.menu {
-  margin-top: 20%;
-  margin-right: 8%;
-  margin-left: 8%;
-}
-.menu h1 {
-  font-size: 1.5rem;
-  margin-bottom: 6%;
-}
-
-.menu h2 {
-  margin-bottom: 3%;
-}
-
-.menu li {
+  padding-left: 2%;
+  padding-bottom: 0.5%;
   font-size: 1.2rem;
-  margin-left: -10%;
-  margin-bottom: 5%;
 }
+nav ul, nav li {display: inline;}
+nav a:link {color: #333; text-decoration: none;}
+nav a:visited {color: #333;}
+nav a:hover {color: #999;}
 
-.menu a:link {color: #5A4034;text-decoration: none;}
-.menu a:visited {color: #5A4034;}
-.menu a:hover {color: #fff;background-color: #4976f5;}
-
-.back-to-top {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 1250%;
+h1 {
+  margin-left: 5rem;
+  margin-bottom: 1rem;
 }
-
+p {
+  margin-left: 6rem;
+  margin-bottom: 1rem;
+}
+main ol {
+  margin-left: 7rem;
+  line-height: 2rem;
+}

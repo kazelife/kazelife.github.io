@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin: 0;
+}
+h1 {
+  display: block;
+  border-bottom: 1px solid #c0c0c0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 2%;
+  padding-bottom: 0.5%;
+}
+h1 ul, h1 li {display: inline;}
+h1 a:link {color: #333; text-decoration: none;}
+h1 a:visited {color: #333;}
+h1 a:hover {color: #999;}
+
+table a:link {color: #333; text-decoration: none;}
+table a:visited {color: #333;}
+table a:hover {color: #999;}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-row {
+  order: calc(var(--order) * var(--sort-order, -1));
+}
+
+#sort-by-date:checked ~ .table > .table-body > .table-row {
+  --order: var(--order-by-date);
+}
+
+
+#sort-ascending:checked + .table {
+  --sort-order: 1;
+}
+
+#sort-by-name:checked ~ #sort-ascending:checked + .table > .table-body {
+  flex-direction: column-reverse;
+}
+
+.table-wrapper > input {
+  position: fixed;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.table,
+.table-caption,
+.table-head {
+  display: block;
+  margin: 0;
+}
+
+table,td,th {
+  font-weight: normal;
+}
+
+.table-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 20%;
+}
+
+.table-cell {
+  text-align: right;
+  padding: 0.25em 0.5em;
+  white-space: nowrap;
+}
+
+.table-cell:first-child {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-orderer {
+  display: none;
+}
+
+.table-head .table-cell {
+  position: relative;
+  display: flex;
+  user-select: none;
+}
+
+.table-head .table-cell:hover {
+  color: #999;
+}
+
+.table-head .table-cell:not(:first-child) {
+  flex-direction: row-reverse;
+}
+
+.table-sorter:before,
+.table-orderer:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+#sort-by-name:checked ~ .table .table-sorter[for=sort-by-name] ~ .table-orderer,
+#sort-by-date:checked ~ .table .table-sorter[for=sort-by-date] ~ .table-orderer,
+#sort-by-views:checked ~ .table .table-sorter[for=sort-by-views] ~ .table-orderer {
+  display: inline;
+}
+
+#sort-ascending:checked + .table .table-orderer[for=sort-ascending],
+#sort-ascending:not(:checked) + .table .table-orderer[for=sort-descending] {
+  display: none !important;
+}

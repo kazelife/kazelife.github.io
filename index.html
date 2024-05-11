@@ -30,9 +30,9 @@ a {
   width: 10rem;
   font-size: 1rem;
 }
-
-a:hover {color: #999;}
 ul {list-style: none;}
+a:hover {color: #999;}
+/* .select:visited {color: #333;} */
 
 .menu:nth-child(1):hover .submenu{
   display: flex;
@@ -52,14 +52,17 @@ ul {list-style: none;}
 }
   </style>
 </head>
+
 <body>
   <div class="container">
     <ul class="menu">
-      <li><a class="select" href="posts.html"><div class="line"></div></a>
+      <li>
+        <!-- <a class="select" href="posts.html"> -->
+          <div class="line"></div>
+        <!-- </a> -->
         <ul class="submenu">
+          <li><a href="calibre.html">Calibre</a></li>
           <li><a href="windows-search.html">Windows Search</a></li>
-          <li><a href="start-menu.html">Start Menu</a></li>
-          <li><a href="taskbar.html">Taskbar</a></li>
         </ul>
       </li>
     </ul>
