@@ -1,0 +1,8 @@
+1. <html lang="en">→<html lang="zh-CN">
+2. <title>make life easier</title>→<title>翻译下</title>
+3.  ①更新具体文章链接；②注意文件夹加上/，文件不加/
+  <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="x-default">
+  <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="en">
+  <link rel="alternate" href="https://kazelife.com/zh-CN/替换我.html" hreflang="zh-CN">
+4. 面包屑的超链接
+
