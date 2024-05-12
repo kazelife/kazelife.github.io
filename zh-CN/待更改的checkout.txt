@@ -1,0 +1,13 @@
+<html lang="en">→<html lang="zh-CN">
+<title>make life easier</title>→<title>翻译下</title>
+文章内部的超链接！直接搜html吧，前面加上/zh-CN
+——————
+英文里要养成提前加上的好习惯，但复制给中文，这样中文就不用改了。
+→
+直接丢进template就绝对不会忘了！
+——
+  <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="x-default">
+  <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="en">
+  <link rel="alternate" href="https://kazelife.com/zh-CN/替换我.html" hreflang="zh">
+——
+①更新具体文章链接；②注意文件夹加上/，文件不加/
