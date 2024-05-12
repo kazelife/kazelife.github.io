@@ -4,5 +4,8 @@
   <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="x-default">
   <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="en">
   <link rel="alternate" href="https://kazelife.com/zh-CN/替换我.html" hreflang="zh-CN">
-4. 面包屑的超链接
+4. 面包屑的超链接，主页和第二级都要改：
+      <li><a href="/zh-CN/">主页</a></li>
+      <li> &gt; <a href="/zh-CN/calibre/">calibre</a></li>
+      <li> &gt; <a href="minimize-to-tray.html">最小化到托盘</a></li>
 
