@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calibre</title>
+  <link rel="stylesheet" href="list.css">
+</head>
+<body>
+  <h1>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li> &gt; <a href="calibre.html">calibre</a></li>
+    </ul>
+  </h1>
+  <div class="table-wrapper">
+    <input type="radio" name="sort" id="sort-by-name">
+    <input type="radio" name="sort" id="sort-by-date">
+    <input type="radio" name="sort-order" id="sort-descending">
+    <input type="radio" name="sort-order" id="sort-ascending">
+    <table class="table">
+      <thead class="table-head">
+        <tr class="table-row">
+          <th class="table-cell">
+            <label class="table-sorter" for="sort-by-name">Name</label>
+            <label class="table-orderer" for="sort-ascending" data-filtered="filtered"></label>
+            <label class="table-orderer" for="sort-descending" data-filtered="filtered"></label>
+          </th>
+          <th class="table-cell">
+            <label class="table-sorter" for="sort-by-date">Last modified</label>
+            <label class="table-orderer" for="sort-ascending"></label>
+            <label class="table-orderer" for="sort-descending" data-filtered="filtered"></label>
+          </th>
+        </tr>
+      </thead>
+      <tbody class="table-body">
+        <tr class="table-row" style="--order-by-date: 240511;">
+          <th class="table-cell"><a href="calibre/smooth-flow-mode.html">Smooth flow mode with no chapter snapping</a></th>
+          <td class="table-cell">2024-05-11</td>
+        </tr>
+        <tr class="table-row" style="--order-by-date: 240512;">
+          <th class="table-cell"><a href="calibre/selection-popup.html">Selection popup with most frequently used menu</a></th>
+          <td class="table-cell">2024-05-12</td>
+        </tr>
+        <tr class="table-row" style="--order-by-date: 240512;">
+          <th class="table-cell"><a href="calibre/minimize-to-tray.html">Minimize to tray instead of closing when you press X</a></th>
+          <td class="table-cell">2024-05-12</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
