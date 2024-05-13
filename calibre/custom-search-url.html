@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>custom-search-url</title>
+  <link rel="stylesheet" href="/article.css">
+  <link rel="alternate" href="https://kazelife.com/calibre/custom-search-url.html" hreflang="x-default">
+  <link rel="alternate" href="https://kazelife.com/calibre/custom-search-url.html" hreflang="en">
+  <link rel="alternate" href="https://kazelife.com/zh-CN/calibre/custom-search-url.html" hreflang="zh-CN">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li> &gt; <a href="/calibre/">calibre</a></li>
+      <li> &gt; <a href="custom-search-url.html">custom-search-url</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>How to custom search behavior when you click author from Book details</h1>
+    <p style="margin-top: 1rem;margin-bottom: 0.5rem;">Steps as follows: </p>
+    <ol>
+      <li><strong>Preferences</strong></li>
+      <li><strong>Look & feel</strong></li>
+      <li><strong>Book details</strong></li>
+      <li>
+        <details>
+          <summary>Clicking on author names should:</summary>
+        <ul style="font-size: 0.9rem; line-height: 1.8rem;">
+          <li>Search for the author on Goodreads</li>
+          <li>Search for the author on Amazon</li>
+          <li>Search for the author in your calibre library</li>
+          <li>Search for the author on Wikipedia</li>
+          <li>Search for the author on Google Books</li>
+          <li>Search for the book on Goodreads</li>
+          <li>Search for the book on Amazon</li>
+          <li>Search for the book on Google Books</li>
+          <li>Use a custom search URL</li>
+        </ul>
+      </details>
+      </li>
+      <li>Choose one you like or choose <strong>Use a custom search URL</strong> to set url manually</li>
+    </ol>
+    <p style="margin-top: 2rem;margin-bottom: 0.5rem;">Custom search url templates:</p>
+    <ol>
+      <strong style="margin-left: -1rem;">Attention: search url may varies from different search engines.</strong>
+      <li>
+        e.g. Search author/book at <strong>Google</strong>
+        <ul>
+          <li>https://www.google.com/search?q={author}</li>
+          <li>https://www.google.com/search?q={title}</li>
+        </ul>
+      </li>
+      <li>
+        e.g. Search author/book at <strong>Bing</strong>
+        <ul>
+          <li>https://www.bing.com/search?q={author}</li>
+          <li>https://www.bing.com/search?q={title}</li>
+        </ul>
+      </li>
+      <li>
+        e.g. Search author/book at <strong>Douban</strong> (specific for book written in Chinese language)
+        <ul>
+          <li>https://book.douban.com/subject_search?search_text={author}</li>
+          <li>https://book.douban.com/subject_search?search_text={title}</li>
+        </ul>
+      </li>
+      <li>
+        e.g. Search author/book at <strong>Baidu</strong> (default Chinese search engine, <strong>not recommended</strong>)
+        <ul>
+          <li>https://www.baidu.com/s?wd={author}</li>
+          <li>https://www.baidu.com/s?wd={title}</li>
+        </ul>
+      </li>
+    </ol>
+  </main>
+</body>
+</html>

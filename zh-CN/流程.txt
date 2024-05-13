@@ -1,11 +1,23 @@
+【en用旧的当模板创建新的流程】
+1. 复制粘贴
+2. 选中旧url，替换为新url，有6个
+——————
+【转中文流程】
 1. <html lang="en">→<html lang="zh-CN">
 2. <title>make life easier</title>→<title>翻译下</title>
-3.  ①更新具体文章链接；②注意文件夹加上/，文件不加/
-  <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="x-default">
-  <link rel="alternate" href="https://kazelife.com/替换我.html" hreflang="en">
-  <link rel="alternate" href="https://kazelife.com/zh-CN/替换我.html" hreflang="zh-CN">
+3. 替换我→文件夹名/或文件名.html
+  <link rel="alternate" href="https://kazelife.com/替换我" hreflang="x-default">
+  <link rel="alternate" href="https://kazelife.com/替换我" hreflang="en">
+  <link rel="alternate" href="https://kazelife.com/zh-CN/替换我" hreflang="zh-CN">
 4. 面包屑的超链接，主页和第二级都要改：
+      <li><a href="/">Home</a></li>
+      <li> &gt; <a href="/calibre/">calibre</a></li>
+      <li> &gt; <a href="minimize-to-tray.html">minimize-to-tray</a></li>
+改成
       <li><a href="/zh-CN/">主页</a></li>
       <li> &gt; <a href="/zh-CN/calibre/">calibre</a></li>
       <li> &gt; <a href="minimize-to-tray.html">最小化到托盘</a></li>
+——————
+【两边都要做的】
+更新对应分类里的index
 
