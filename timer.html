@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Timer</title>
+  <script src="timer.js" defer></script>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+#timer-display {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#countdown-input {
+  width: 50px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+  </style>
+</head>
+
+<body>
+  <h1>Timer</h1>
+  <div id="timer-display">00:00:00</div>
+  <input id="countdown-input" type="number" value="3600" />
+  <button id="start-button">Start</button>
+  <button id="cancel-button" disabled>Cancel</button>
+  <button id="pause-button" disabled>Pause</button>
+  <button id="resume-button" disabled>Resume</button>
+
+
+  <audio id="alarm-sound" src="sleep.mp3" hidden></audio>
+</body>
+
+</html>
