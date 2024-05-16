@@ -67,7 +67,7 @@ table,td,th {
 .table-row {
   position: relative;
   display: grid;
-  grid-template-columns: 45% 20%;
+  grid-template-columns: 40% 20%;
 }
 
 .table-cell {
