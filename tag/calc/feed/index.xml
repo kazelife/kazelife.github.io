@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>极简 &#8211; kazelife</title>
-	<atom:link href="/tag/minimalize/feed/" rel="self" type="application/rss+xml" />
+	<title>calc &#8211; kazelife</title>
+	<atom:link href="/tag/calc/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Tue, 21 May 2024 15:56:41 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 22 May 2024 08:45:46 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,17 +20,16 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
-		<title>怎么移除Win10搜索左侧栏里的&#8221;推荐&#8221;？</title>
-		<link>/default/how-to-disable-recommended-in-windows-search/</link>
+		<title>怎么拆开单列再重组？</title>
+		<link>/excel/split-and-merge-cells/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Tue, 21 May 2024 15:49:36 +0000</pubDate>
-				<category><![CDATA[默认]]></category>
-		<category><![CDATA[个性化]]></category>
-		<category><![CDATA[极简]]></category>
-		<guid isPermaLink="false">/?p=71</guid>
+		<pubDate>Sat, 04 May 2024 07:38:00 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[calc]]></category>
+		<guid isPermaLink="false">/?p=119</guid>
 
-					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来&#8230;]]></description>
+					<description><![CDATA[需求：我做的be there无前奏セトリ不好用，做的时候很好&#8230;]]></description>
 		
 		
 		
