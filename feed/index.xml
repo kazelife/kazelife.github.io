@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Wed, 22 May 2024 12:01:04 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 May 2024 16:12:12 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,24 +20,97 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
-		<title>关于“减盐酱油”的迷思</title>
-		<link>/health/nutrition/myth-about-less-sodium-soy-souce/</link>
+		<title>什么时候要用rel=&#8221;nofollow&#8221;？</title>
+		<link>/seo/when-to-use-nofollow-on-links/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 12:01:01 +0000</pubDate>
-				<category><![CDATA[营养学]]></category>
-		<category><![CDATA[调味品]]></category>
-		<category><![CDATA[饮食]]></category>
-		<guid isPermaLink="false">/?p=159</guid>
+		<pubDate>Thu, 23 May 2024 16:11:27 +0000</pubDate>
+				<category><![CDATA[SEO]]></category>
+		<guid isPermaLink="false">/?p=5</guid>
 
-					<description><![CDATA[今天，kaze打算买瓶酱油，她想起了之前买过的又贵！又难吃！&#8230;]]></description>
+					<description><![CDATA[应用场合：查看全文回到顶端广告链接备案网站参考资料…… 主要...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>怎么拆开单列再重组？</title>
-		<link>/excel/split-and-merge-cells/</link>
+		<title>WordPress怎么在同一个段落区块内换行？</title>
+		<link>/wordpress/wordpress%e6%80%8e%e4%b9%88%e5%9c%a8%e5%90%8c%e4%b8%80%e4%b8%aa%e6%ae%b5%e8%90%bd%e5%8c%ba%e5%9d%97%e5%86%85%e6%8d%a2%e8%a1%8c%ef%bc%9f/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 10:41:35 +0000</pubDate>
+				<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=349</guid>
+
+					<description><![CDATA[默认按回车就新建区块了，行间距变得好大好大。不想行间距这么大...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>免费开源办公软件LibreOffice的安装</title>
+		<link>/excel/how-to-install-libreoffice-calc/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 07:57:34 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<guid isPermaLink="false">/?p=271</guid>
+
+					<description><![CDATA[写在前面：本攻略以Win10 64位和LibreOffice...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Curse of Knowledge-知识陷阱</title>
+		<link>/psychological-effect/curse-of-knowledge/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 02:27:41 +0000</pubDate>
+				<category><![CDATA[心理学效应]]></category>
+		<category><![CDATA[反之，利用这一点]]></category>
+		<category><![CDATA[行为学]]></category>
+		<guid isPermaLink="false">/?p=250</guid>
+
+					<description><![CDATA[心理学效应 中文 例子 反之，利用这一点 Curse of ...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>WordPress怎么给文章中链接加上nofollow？</title>
+		<link>/wordpress/how-to-add-nofollow-in-wordpress/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Wed, 22 May 2024 14:32:47 +0000</pubDate>
+				<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=179</guid>
+
+					<description><![CDATA[Step1: 添加链接 Step2: 编辑链接 Step3:...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>关于“减盐酱油”的迷思</title>
+		<link>/health/nutrition/myth-about-less-sodium-soy-souce/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Wed, 22 May 2024 12:01:01 +0000</pubDate>
+				<category><![CDATA[健康]]></category>
+		<category><![CDATA[营养学]]></category>
+		<category><![CDATA[调味品]]></category>
+		<category><![CDATA[饮食]]></category>
+		<guid isPermaLink="false">/?p=159</guid>
+
+					<description><![CDATA[今天，kaze打算买瓶酱油，TA想起了之前买过的又贵！又难吃...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Excel怎么拆开单列后再合并？</title>
+		<link>/excel/how-to-split-and-merge-cells-in-excel/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Sat, 04 May 2024 07:38:00 +0000</pubDate>
@@ -45,49 +118,49 @@
 		<category><![CDATA[calc]]></category>
 		<guid isPermaLink="false">/?p=119</guid>
 
-					<description><![CDATA[需求：我做的be there无前奏セトリ不好用，做的时候很好&#8230;]]></description>
+					<description><![CDATA[需求：我做的be there无前奏セトリ不好用，做的时候很好...]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>怎么移除Win10搜索左侧栏里的&#8221;推荐&#8221;？</title>
-		<link>/windows10/disable-recommended-in-windows-search/</link>
+		<link>/windows10/how-to-disable-recommended-in-windows-search/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Tue, 26 Mar 2024 07:48:00 +0000</pubDate>
 				<category><![CDATA[Win10]]></category>
 		<guid isPermaLink="false">/?p=71</guid>
 
-					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来&#8230;]]></description>
+					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>wps的撤销在哪？</title>
-		<link>/excel/where-is-undo-in-wps/</link>
+		<title>Excel的保存格式选.xlsx还是.xls呢？</title>
+		<link>/excel/xlsx-or-xls/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sun, 15 May 2022 23:11:00 +0000</pubDate>
+		<pubDate>Fri, 28 Apr 2023 10:45:00 +0000</pubDate>
 				<category><![CDATA[Excel]]></category>
-		<guid isPermaLink="false">/?p=153</guid>
+		<guid isPermaLink="false">/?p=378</guid>
 
-					<description><![CDATA[默认被藏起来了，在最左上角有一个朝下的箭头，点开来，把别的勾&#8230;]]></description>
+					<description><![CDATA[先说结论：.xlsx为什么呢？因为Excel 2007及以后...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>怎么横的和竖的换一下？</title>
-		<link>/excel/transpose-data-from-rows-to-columns/</link>
+		<title>Excel保留小数后如何居中？</title>
+		<link>/excel/how-to-centering-decimal-numbers-in-excel/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Wed, 04 May 2022 05:36:00 +0000</pubDate>
+		<pubDate>Thu, 30 Mar 2023 03:02:00 +0000</pubDate>
 				<category><![CDATA[Excel]]></category>
-		<guid isPermaLink="false">/?p=151</guid>
+		<guid isPermaLink="false">/excel/how-to-centering-numeric-values-in-excel-2/</guid>
 
-					<description><![CDATA[选中目标行/列→Ctrl+C→右键，选择性粘贴→转置]]></description>
+					<description><![CDATA[水平居中→分散对齐]]></description>
 		
 		
 		

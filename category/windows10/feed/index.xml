@@ -12,7 +12,7 @@
 	<atom:link href="/category/windows10/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Wed, 22 May 2024 07:33:04 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 May 2024 06:16:47 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,14 +21,14 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
 		<title>怎么移除Win10搜索左侧栏里的&#8221;推荐&#8221;？</title>
-		<link>/windows10/disable-recommended-in-windows-search/</link>
+		<link>/windows10/how-to-disable-recommended-in-windows-search/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Tue, 26 Mar 2024 07:48:00 +0000</pubDate>
 				<category><![CDATA[Win10]]></category>
 		<guid isPermaLink="false">/?p=71</guid>
 
-					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来&#8230;]]></description>
+					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来...]]></description>
 		
 		
 		

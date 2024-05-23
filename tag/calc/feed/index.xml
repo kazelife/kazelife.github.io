@@ -12,7 +12,7 @@
 	<atom:link href="/tag/calc/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Wed, 22 May 2024 08:45:46 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 May 2024 06:16:03 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,8 +20,8 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
-		<title>怎么拆开单列再重组？</title>
-		<link>/excel/split-and-merge-cells/</link>
+		<title>Excel怎么拆开单列后再合并？</title>
+		<link>/excel/how-to-split-and-merge-cells-in-excel/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Sat, 04 May 2024 07:38:00 +0000</pubDate>
@@ -29,7 +29,7 @@
 		<category><![CDATA[calc]]></category>
 		<guid isPermaLink="false">/?p=119</guid>
 
-					<description><![CDATA[需求：我做的be there无前奏セトリ不好用，做的时候很好&#8230;]]></description>
+					<description><![CDATA[需求：我做的be there无前奏セトリ不好用，做的时候很好...]]></description>
 		
 		
 		

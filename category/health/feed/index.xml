@@ -12,7 +12,7 @@
 	<atom:link href="/category/health/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Wed, 22 May 2024 12:01:04 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 May 2024 06:27:03 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -25,12 +25,13 @@
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Wed, 22 May 2024 12:01:01 +0000</pubDate>
-				<category><![CDATA[营养学]]></category>
+				<category><![CDATA[健康]]></category>
+		<category><![CDATA[营养学]]></category>
 		<category><![CDATA[调味品]]></category>
 		<category><![CDATA[饮食]]></category>
 		<guid isPermaLink="false">/?p=159</guid>
 
-					<description><![CDATA[今天，kaze打算买瓶酱油，她想起了之前买过的又贵！又难吃！&#8230;]]></description>
+					<description><![CDATA[今天，kaze打算买瓶酱油，TA想起了之前买过的又贵！又难吃...]]></description>
 		
 		
 		

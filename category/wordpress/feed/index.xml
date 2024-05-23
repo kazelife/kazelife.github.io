@@ -12,12 +12,40 @@
 	<atom:link href="/category/wordpress/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Wed, 22 May 2024 12:01:04 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 May 2024 10:41:37 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
-</channel>
+	<item>
+		<title>WordPress怎么在同一个段落区块内换行？</title>
+		<link>/wordpress/wordpress%e6%80%8e%e4%b9%88%e5%9c%a8%e5%90%8c%e4%b8%80%e4%b8%aa%e6%ae%b5%e8%90%bd%e5%8c%ba%e5%9d%97%e5%86%85%e6%8d%a2%e8%a1%8c%ef%bc%9f/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 10:41:35 +0000</pubDate>
+				<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=349</guid>
+
+					<description><![CDATA[默认按回车就新建区块了，行间距变得好大好大。不想行间距这么大...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>WordPress怎么给文章中链接加上nofollow？</title>
+		<link>/wordpress/how-to-add-nofollow-in-wordpress/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Wed, 22 May 2024 14:32:47 +0000</pubDate>
+				<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=179</guid>
+
+					<description><![CDATA[Step1: 添加链接 Step2: 编辑链接 Step3:...]]></description>
+		
+		
+		
+			</item>
+	</channel>
 </rss>
