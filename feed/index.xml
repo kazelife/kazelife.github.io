@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Thu, 23 May 2024 16:12:12 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 24 May 2024 15:17:04 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -49,11 +49,11 @@
 			</item>
 		<item>
 		<title>免费开源办公软件LibreOffice的安装</title>
-		<link>/excel/how-to-install-libreoffice-calc/</link>
+		<link>/excel/libreoffice-calc/how-to-install-libreoffice-calc/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Thu, 23 May 2024 07:57:34 +0000</pubDate>
-				<category><![CDATA[Excel]]></category>
+				<category><![CDATA[LibreOffice Calc]]></category>
 		<guid isPermaLink="false">/?p=271</guid>
 
 					<description><![CDATA[写在前面：本攻略以Win10 64位和LibreOffice...]]></description>
@@ -72,7 +72,7 @@
 		<category><![CDATA[行为学]]></category>
 		<guid isPermaLink="false">/?p=250</guid>
 
-					<description><![CDATA[心理学效应 中文 例子 反之，利用这一点 Curse of ...]]></description>
+					<description><![CDATA[心理学效应 中文 现象 例子 反之，利用这一点 Curse ...]]></description>
 		
 		
 		
@@ -109,13 +109,13 @@
 		
 			</item>
 		<item>
-		<title>Excel怎么拆开单列后再合并？</title>
-		<link>/excel/how-to-split-and-merge-cells-in-excel/</link>
+		<title>Calc怎么拆开单列后再合并？</title>
+		<link>/excel/libreoffice-calc/how-to-split-and-merge-cells-in-calc/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Sat, 04 May 2024 07:38:00 +0000</pubDate>
-				<category><![CDATA[Excel]]></category>
-		<category><![CDATA[calc]]></category>
+				<category><![CDATA[LibreOffice Calc]]></category>
+		<category><![CDATA[セトリ]]></category>
 		<guid isPermaLink="false">/?p=119</guid>
 
 					<description><![CDATA[需求：我做的be there无前奏セトリ不好用，做的时候很好...]]></description>
@@ -124,43 +124,43 @@
 		
 			</item>
 		<item>
-		<title>怎么移除Win10搜索左侧栏里的&#8221;推荐&#8221;？</title>
-		<link>/windows10/how-to-disable-recommended-in-windows-search/</link>
+		<title>Calc怎么批量重命名所有工作表？</title>
+		<link>/excel/libreoffice-calc/how-to-auto-remame-multiple-sheets-in-calc/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 07:48:00 +0000</pubDate>
-				<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">/?p=71</guid>
+		<pubDate>Wed, 17 Apr 2024 14:29:00 +0000</pubDate>
+				<category><![CDATA[LibreOffice Calc]]></category>
+		<guid isPermaLink="false">/?p=535</guid>
 
-					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来...]]></description>
+					<description><![CDATA[需求：我有一个Excel文件，里面有很多工作表，我希望所有工...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>Excel的保存格式选.xlsx还是.xls呢？</title>
-		<link>/excel/xlsx-or-xls/</link>
+		<title>Calc里单撇看上去怪怪的为什么？</title>
+		<link>/excel/libreoffice-calc/how-to-disable-smart-quotes-in-calc/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Fri, 28 Apr 2023 10:45:00 +0000</pubDate>
-				<category><![CDATA[Excel]]></category>
-		<guid isPermaLink="false">/?p=378</guid>
+		<pubDate>Fri, 05 Apr 2024 00:40:00 +0000</pubDate>
+				<category><![CDATA[LibreOffice Calc]]></category>
+		<guid isPermaLink="false">/?p=526</guid>
 
-					<description><![CDATA[先说结论：.xlsx为什么呢？因为Excel 2007及以后...]]></description>
+					<description><![CDATA[需求：&#8216;mtime&#8217;，希望单撇是这种...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>Excel保留小数后如何居中？</title>
-		<link>/excel/how-to-centering-decimal-numbers-in-excel/</link>
+		<title>Calc列拉宽后行高没有自动调整怎么办？</title>
+		<link>/excel/libreoffice-calc/how-to-auto-adjust-row-height-in-calc/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Thu, 30 Mar 2023 03:02:00 +0000</pubDate>
-				<category><![CDATA[Excel]]></category>
-		<guid isPermaLink="false">/excel/how-to-centering-numeric-values-in-excel-2/</guid>
+		<pubDate>Thu, 04 Apr 2024 04:13:00 +0000</pubDate>
+				<category><![CDATA[LibreOffice Calc]]></category>
+		<guid isPermaLink="false">/?p=521</guid>
 
-					<description><![CDATA[水平居中→分散对齐]]></description>
+					<description><![CDATA[也就是之前占两行的文本，列拉宽后，只占一行了，但行高没有变矮...]]></description>
 		
 		
 		
