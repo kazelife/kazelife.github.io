@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Fri, 24 May 2024 15:17:04 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 25 May 2024 15:43:43 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,112 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
+		<title>怎么创建你自己的AI聊天？【免费】【无需魔法】</title>
+		<link>/trigger/%e6%80%8e%e4%b9%88%e5%88%9b%e5%bb%ba%e4%bd%a0%e8%87%aa%e5%b7%b1%e7%9a%84ai%e8%81%8a%e5%a4%a9%ef%bc%9f%e3%80%90%e5%85%8d%e8%b4%b9%e3%80%91%e3%80%90%e6%97%a0%e9%9c%80%e9%ad%94%e6%b3%95%e3%80%91/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 25 May 2024 15:02:15 +0000</pubDate>
+				<category><![CDATA[受不了xx了！]]></category>
+		<category><![CDATA[生产力工具]]></category>
+		<guid isPermaLink="false">/?p=888</guid>
+
+					<description><![CDATA[受不了问得太急被封号了！老子自己搭！ 免费API key申请...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么在iPad上使用？</title>
+		<link>/calibre/how-to-use-calibre-on-ipad-and-mobile-device/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 25 May 2024 11:01:16 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<guid isPermaLink="false">/?p=812</guid>
+
+					<description><![CDATA[不仅是iPad，只要是在同个Wi-Fi下、带浏览器的设备，都...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>为什么我选择了用服务器而不是阅读器看书？</title>
+		<link>/calibre/why-i-choose-calibre-content-server-instead-of-ebook-viewer/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 25 May 2024 08:28:18 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[选哪个]]></category>
+		<guid isPermaLink="false">/?p=754</guid>
+
+					<description><![CDATA[打开更快；记笔记不用右键来切换到中文输入法；用惯了浏览器进行...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>自定义or个性化？</title>
+		<link>/expressions/customize-or-personalize/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 25 May 2024 05:24:20 +0000</pubDate>
+				<category><![CDATA[字词]]></category>
+		<category><![CDATA[选哪个]]></category>
+		<guid isPermaLink="false">/?p=683</guid>
+
+					<description><![CDATA[在表达根据自己的需求设置软件时，用个自定义还是个性化的问题。...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>为什么写了篇安装教程让我浑身不得劲？</title>
+		<link>/blog/content/write-unnecessary-guides-or-not/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 25 May 2024 04:54:43 +0000</pubDate>
+				<category><![CDATA[内容]]></category>
+		<category><![CDATA[选哪个]]></category>
+		<guid isPermaLink="false">/?p=675</guid>
+
+					<description><![CDATA[博客内容极简]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>WordPress怎么自定义小工具区块？</title>
+		<link>/wordpress/how-to-manage-wordpress-widgets-more-specifically/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 16:21:45 +0000</pubDate>
+				<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=640</guid>
+
+					<description><![CDATA[我就搞不懂了，为什么文章里的归档能折叠，侧边栏里的小工具就不...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>怎么用Admin Tweaks显示分类文章数量？</title>
+		<link>/wordpress/how-to-display-category-count-by-in-wordpress/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 15:58:21 +0000</pubDate>
+				<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[插件]]></category>
+		<category><![CDATA[Admin Tweaks]]></category>
+		<guid isPermaLink="false">/?p=616</guid>
+
+					<description><![CDATA[效果图 步骤图]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>什么时候要用rel=&#8221;nofollow&#8221;？</title>
 		<link>/seo/when-to-use-nofollow-on-links/</link>
 		
@@ -57,110 +163,6 @@
 		<guid isPermaLink="false">/?p=271</guid>
 
 					<description><![CDATA[写在前面：本攻略以Win10 64位和LibreOffice...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Curse of Knowledge-知识陷阱</title>
-		<link>/psychological-effect/curse-of-knowledge/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 02:27:41 +0000</pubDate>
-				<category><![CDATA[心理学效应]]></category>
-		<category><![CDATA[反之，利用这一点]]></category>
-		<category><![CDATA[行为学]]></category>
-		<guid isPermaLink="false">/?p=250</guid>
-
-					<description><![CDATA[心理学效应 中文 现象 例子 反之，利用这一点 Curse ...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>WordPress怎么给文章中链接加上nofollow？</title>
-		<link>/wordpress/how-to-add-nofollow-in-wordpress/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 14:32:47 +0000</pubDate>
-				<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">/?p=179</guid>
-
-					<description><![CDATA[Step1: 添加链接 Step2: 编辑链接 Step3:...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>关于“减盐酱油”的迷思</title>
-		<link>/health/nutrition/myth-about-less-sodium-soy-souce/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 12:01:01 +0000</pubDate>
-				<category><![CDATA[健康]]></category>
-		<category><![CDATA[营养学]]></category>
-		<category><![CDATA[调味品]]></category>
-		<category><![CDATA[饮食]]></category>
-		<guid isPermaLink="false">/?p=159</guid>
-
-					<description><![CDATA[今天，kaze打算买瓶酱油，TA想起了之前买过的又贵！又难吃...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Calc怎么拆开单列后再合并？</title>
-		<link>/excel/libreoffice-calc/how-to-split-and-merge-cells-in-calc/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sat, 04 May 2024 07:38:00 +0000</pubDate>
-				<category><![CDATA[LibreOffice Calc]]></category>
-		<category><![CDATA[セトリ]]></category>
-		<guid isPermaLink="false">/?p=119</guid>
-
-					<description><![CDATA[需求：我做的be there无前奏セトリ不好用，做的时候很好...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Calc怎么批量重命名所有工作表？</title>
-		<link>/excel/libreoffice-calc/how-to-auto-remame-multiple-sheets-in-calc/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 14:29:00 +0000</pubDate>
-				<category><![CDATA[LibreOffice Calc]]></category>
-		<guid isPermaLink="false">/?p=535</guid>
-
-					<description><![CDATA[需求：我有一个Excel文件，里面有很多工作表，我希望所有工...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Calc里单撇看上去怪怪的为什么？</title>
-		<link>/excel/libreoffice-calc/how-to-disable-smart-quotes-in-calc/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Fri, 05 Apr 2024 00:40:00 +0000</pubDate>
-				<category><![CDATA[LibreOffice Calc]]></category>
-		<guid isPermaLink="false">/?p=526</guid>
-
-					<description><![CDATA[需求：&#8216;mtime&#8217;，希望单撇是这种...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Calc列拉宽后行高没有自动调整怎么办？</title>
-		<link>/excel/libreoffice-calc/how-to-auto-adjust-row-height-in-calc/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Thu, 04 Apr 2024 04:13:00 +0000</pubDate>
-				<category><![CDATA[LibreOffice Calc]]></category>
-		<guid isPermaLink="false">/?p=521</guid>
-
-					<description><![CDATA[也就是之前占两行的文本，列拉宽后，只占一行了，但行高没有变矮...]]></description>
 		
 		
 		

@@ -12,12 +12,169 @@
 	<atom:link href="/category/calibre/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Fri, 24 May 2024 15:31:32 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 25 May 2024 15:52:30 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
-</channel>
+	<item>
+		<title>Calibre怎么在iPad上使用？</title>
+		<link>/calibre/how-to-use-calibre-on-ipad-and-mobile-device/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 25 May 2024 11:01:16 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<guid isPermaLink="false">/?p=812</guid>
+
+					<description><![CDATA[不仅是iPad，只要是在同个Wi-Fi下、带浏览器的设备，都...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>为什么我选择了用服务器而不是阅读器看书？</title>
+		<link>/calibre/why-i-choose-calibre-content-server-instead-of-ebook-viewer/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 25 May 2024 08:28:18 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[选哪个]]></category>
+		<guid isPermaLink="false">/?p=754</guid>
+
+					<description><![CDATA[打开更快；记笔记不用右键来切换到中文输入法；用惯了浏览器进行...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么自动翻译外语书籍？</title>
+		<link>/calibre/how-to-translate-foreign-books-automatically-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sun, 19 May 2024 15:53:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[受不了xx了！]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[数位极简]]></category>
+		<category><![CDATA[生产力工具]]></category>
+		<guid isPermaLink="false">/?p=864</guid>
+
+					<description><![CDATA[受不了显眼包译者对原文的摧残了！但我真的很需要看原文，但又死...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么点作者名字就能跳到豆瓣？</title>
+		<link>/calibre/how-to-set-custom-search-url-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Fri, 10 May 2024 00:55:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<guid isPermaLink="false">/?p=706</guid>
+
+					<description><![CDATA[在主界面，点右侧栏书籍详情里的作者名字时，能一键跳转到豆瓣搜...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么自定义工具栏/菜单栏？</title>
+		<link>/calibre/how-to-display-less-menu-items-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 15:38:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[数位极简]]></category>
+		<guid isPermaLink="false">/?p=788</guid>
+
+					<description><![CDATA[1. 首选项2. 工具栏与菜单3. 点击这里选择要自定义的工...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么自定义主工具栏的图标？</title>
+		<link>/calibre/calibre%e6%80%8e%e4%b9%88%e8%87%aa%e5%ae%9a%e4%b9%89%e4%b8%bb%e5%b7%a5%e5%85%b7%e6%a0%8f%e7%9a%84%e5%9b%be%e6%a0%87%ef%bc%9f/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 15:38:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[数位极简]]></category>
+		<guid isPermaLink="false">/?p=806</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre的卷轴模式怎么更顺滑不跳章？</title>
+		<link>/calibre/flow-mode-continuous-scrolling-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sun, 14 Apr 2024 15:13:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<guid isPermaLink="false">/?p=698</guid>
+
+					<description><![CDATA[注意：步骤5不可逆！如果你还需要多个html的形式，请先备份...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么自定义选择/长按后的菜单？</title>
+		<link>/calibre/how-to-custom-selection-popup-menu-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sun, 14 Apr 2024 07:22:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[数位极简]]></category>
+		<guid isPermaLink="false">/?p=779</guid>
+
+					<description><![CDATA[通过轻松简单的设置，使得阅读时长按/选择后的菜单只有记笔记和高亮两个按钮，更好点，更省心]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么按X时最小化到托盘？</title>
+		<link>/calibre/how-to-minimize-calibre-to-tray-when-press-x/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 13 Apr 2024 05:59:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<guid isPermaLink="false">/?p=768</guid>
+
+					<description><![CDATA[默认设置是直接关闭，需要手动改一下：1. 首选项2. 界面外...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>电子书阅读器-免费开源好用-Calibre</title>
+		<link>/calibre/free-open-source-usable-ebook-reader/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Mon, 19 Feb 2024 15:24:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[受不了xx了！]]></category>
+		<category><![CDATA[生产力工具]]></category>
+		<guid isPermaLink="false">/?p=739</guid>
+
+					<description><![CDATA[受不了图书吃我笔记了！ 软件名称 大小(M) 启动速度 极简...]]></description>
+		
+		
+		
+			</item>
+	</channel>
 </rss>

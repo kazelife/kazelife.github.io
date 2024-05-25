@@ -12,7 +12,7 @@
 	<atom:link href="/category/excel/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Fri, 24 May 2024 15:17:58 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 24 May 2024 15:43:06 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -106,11 +106,11 @@
 			</item>
 		<item>
 		<title>Calc怎么设置默认的字体大小等参数？</title>
-		<link>/excel/how-to-add-template-in-libreoffice-calc/</link>
+		<link>/excel/libreoffice-calc/how-to-add-template-in-libreoffice-calc/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Tue, 26 Mar 2024 10:15:00 +0000</pubDate>
-				<category><![CDATA[Excel]]></category>
+				<category><![CDATA[LibreOffice Calc]]></category>
 		<guid isPermaLink="false">/?p=540</guid>
 
 					<description><![CDATA[终于受不了每次进去都得重新调整一遍字体大小和设置居中了！ 方...]]></description>
