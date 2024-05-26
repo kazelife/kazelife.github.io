@@ -12,7 +12,7 @@
 	<atom:link href="/category/excel/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>make life easier</description>
-	<lastBuildDate>Fri, 24 May 2024 15:43:06 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 25 May 2024 16:36:20 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -58,6 +58,20 @@
 		<guid isPermaLink="false">/?p=535</guid>
 
 					<description><![CDATA[需求：我有一个Excel文件，里面有很多工作表，我希望所有工...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calc怎么禁用自动加超链接？</title>
+		<link>/excel/libreoffice-calc/how-to-disable-automatic-hyperlinks-in-calc-2/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Fri, 05 Apr 2024 00:53:00 +0000</pubDate>
+				<category><![CDATA[LibreOffice Calc]]></category>
+		<guid isPermaLink="false">/excel/libreoffice-calc/how-to-disable-automatic-hyperlinks-in-calc-2/</guid>
+
+					<description><![CDATA[顶部菜单栏工具→自动更正选项→选项→取消勾选识别 URL→确...]]></description>
 		
 		
 		
@@ -142,20 +156,6 @@
 		<guid isPermaLink="false">/?p=495</guid>
 
 					<description><![CDATA[右键，单元格格式→对齐→勾选“文本自动换行”→确定]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Calc怎么取消首字母自动大写?</title>
-		<link>/excel/libreoffice-calc/how-to-disable-auto-capitalization-in-calc/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Tue, 19 Mar 2024 07:10:00 +0000</pubDate>
-				<category><![CDATA[LibreOffice Calc]]></category>
-		<guid isPermaLink="false">/?p=492</guid>
-
-					<description><![CDATA[顶部菜单栏上的&#8221;工具&#8220;→自动更正选项...]]></description>
 		
 		
 		
