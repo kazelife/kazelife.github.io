@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Apple Books（图书） &#8211; kazelife</title>
+	<atom:link href="https://kazelife.com/tag/apple-books/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kazelife.com</link>
+	<description>make life easier</description>
+	<lastBuildDate>Sun, 26 May 2024 05:02:16 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>Calibre怎么弄得像Apple Books？</title>
+		<link>https://kazelife.com/calibre/how-to-make-calibre-lool-like-apple-books/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Thu, 04 Apr 2024 07:40:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Apple Books（图书）]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[受不了xx了！]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=1002</guid>
+
+					<description><![CDATA[受不了 看上去怪怪的了！都怪我图书用惯了，咋办呢？ 定位问题...]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

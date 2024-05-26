@@ -8,10 +8,10 @@
 <channel>
 	<title>
 	「kazelife」的评论	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://kazelife.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Sun, 26 May 2024 15:58:03 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 26 May 2024 16:22:12 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>

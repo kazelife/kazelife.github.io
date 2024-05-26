@@ -9,10 +9,10 @@
 
 <channel>
 	<title>wps &#8211; kazelife</title>
-	<atom:link href="/category/excel/wps/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://kazelife.com/category/excel/wps/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Fri, 24 May 2024 15:24:30 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 26 May 2024 08:47:14 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,71 +20,143 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
-		<title>wps怎么关掉虚线/打印预览线？</title>
-		<link>/excel/wps/how-to-remove-print-preview-lines-in-wps/</link>
+		<title>wps怎么计算πr²？</title>
+		<link>https://kazelife.com/excel/wps/how-to-calculate-the-volume-of-a-cylinder-in-wps/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 15:49:00 +0000</pubDate>
+		<pubDate>Sat, 20 May 2023 08:27:00 +0000</pubDate>
 				<category><![CDATA[wps]]></category>
-		<guid isPermaLink="false">/?p=316</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=456</guid>
 
-					<description><![CDATA[左上角文件→选项→取消勾选分页符]]></description>
+					<description><![CDATA[需求：为了计算卷纸的体积，V=πr²h方法1:=PI()*r...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>wps怎么计算次方？</title>
-		<link>/excel/wps/how-to-calculate-exponents-in-wps/</link>
+		<title>wps中SUMIF的几种用法（二）-部分条件求和</title>
+		<link>https://kazelife.com/excel/wps/how-to-use-sumif-in-wps-2/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sat, 21 May 2022 05:40:00 +0000</pubDate>
+		<pubDate>Wed, 26 Apr 2023 03:44:00 +0000</pubDate>
 				<category><![CDATA[wps]]></category>
-		<guid isPermaLink="false">/?p=211</guid>
+		<category><![CDATA[人生ゲーム]]></category>
+		<guid isPermaLink="false">https://kazelife.com/excel/how-to-use-sumif-in-excel-1-2/</guid>
 
-					<description><![CDATA[]]></description>
+					<description><![CDATA[A B C D 1 商品 浪费的钱 原因 条件包含 2 条纹...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>wps怎么显示次方？</title>
-		<link>/excel/wps/how-to-display-exponents-in-wps/</link>
+		<title>wps保留小数后如何居中？</title>
+		<link>https://kazelife.com/excel/wps/how-to-centering-decimal-numbers-in-wps/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sat, 21 May 2022 05:38:00 +0000</pubDate>
+		<pubDate>Thu, 30 Mar 2023 03:02:00 +0000</pubDate>
 				<category><![CDATA[wps]]></category>
-		<guid isPermaLink="false">/?p=207</guid>
+		<guid isPermaLink="false">https://kazelife.com/excel/how-to-centering-numeric-values-in-excel-2/</guid>
 
-					<description><![CDATA[选中是次方的那个数字→右键→字符→位置→上标→确定]]></description>
+					<description><![CDATA[水平居中→分散对齐]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>wps的撤销在哪？</title>
-		<link>/excel/wps/where-is-the-toolbar-undo-in-wps/</link>
+		<title>wps怎么移除超链接？</title>
+		<link>https://kazelife.com/excel/wps/how-to-remove-hyperlinks-in-wps/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sun, 15 May 2022 23:11:00 +0000</pubDate>
+		<pubDate>Wed, 22 Feb 2023 12:37:00 +0000</pubDate>
 				<category><![CDATA[wps]]></category>
-		<guid isPermaLink="false">/?p=153</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=365</guid>
 
-					<description><![CDATA[默认被藏起来了，在最左上角有一个朝下的箭头，点开来，把别的勾...]]></description>
+					<description><![CDATA[批量取消超链接：旧方法：选中目标列，Ctrl+C选中输出列，...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>wps怎么横的和竖的换一下？</title>
-		<link>/excel/wps/how-to-transpose-data-from-rows-to-columns-in-wps/</link>
+		<title>wps怎么时间相减？</title>
+		<link>https://kazelife.com/excel/wps/how-to-subtract-time-in-wps/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Wed, 04 May 2022 05:36:00 +0000</pubDate>
+		<pubDate>Fri, 09 Dec 2022 01:56:00 +0000</pubDate>
 				<category><![CDATA[wps]]></category>
-		<guid isPermaLink="false">/?p=151</guid>
+		<guid isPermaLink="false">https://kazelife.com/excel/how-to-count-working-days-in-excel-2/</guid>
 
-					<description><![CDATA[选中目标行/列→Ctrl+C→右键，选择性粘贴→转置]]></description>
+					<description><![CDATA[需求：在做睡眠记录表需要计算：睡了多久=起床时间-入睡时间 ...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>wps中SUMIF的几种用法（一）-条件求和</title>
+		<link>https://kazelife.com/excel/wps/how-to-use-sumif-in-wps-1/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 02:21:00 +0000</pubDate>
+				<category><![CDATA[wps]]></category>
+		<category><![CDATA[人生ゲーム]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=430</guid>
+
+					<description><![CDATA[A B C D E F 1 日期 属性 事件 加点 属性 加...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>wps怎么用COUNTIF统计上班天数?</title>
+		<link>https://kazelife.com/excel/wps/how-to-count-working-days-in-wps/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 22 Oct 2022 02:52:00 +0000</pubDate>
+				<category><![CDATA[wps]]></category>
+		<guid isPermaLink="false">https://kazelife.com/excel/how-to-sum-time-in-excel-2-2/</guid>
+
+					<description><![CDATA[直接=A31-A2的缺点：1、容易忘了+1；2、把翘班的天数...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>wps怎么时间求和？</title>
+		<link>https://kazelife.com/excel/wps/how-to-sum-time-in-wps/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 22 Oct 2022 02:08:00 +0000</pubDate>
+				<category><![CDATA[wps]]></category>
+		<guid isPermaLink="false">https://kazelife.com/excel/how-to-calculate-hourly-rate-in-excel-2/</guid>
+
+					<description><![CDATA[1. 求和的那个格子，假设为G14，单元格格式设置为自定义的...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>wps怎么显示负时间?</title>
+		<link>https://kazelife.com/excel/wps/how-to-display-negative-time-in-wps/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 22 Oct 2022 01:27:00 +0000</pubDate>
+				<category><![CDATA[wps]]></category>
+		<guid isPermaLink="false">https://kazelife.com/excel/how-to-sum-time-in-excel-2/</guid>
+
+					<description><![CDATA[左上角“文件”→“选项”→“重新计算”→勾选“使用1904日...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>wps计算时薪时怎么减去休息时间？</title>
+		<link>https://kazelife.com/excel/wps/how-to-minus-time-when-calculate-hourly-rate-in-wps/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 22 Oct 2022 01:12:00 +0000</pubDate>
+				<category><![CDATA[wps]]></category>
+		<guid isPermaLink="false">https://kazelife.com/excel/how-to-calculate-hourly-rate-in-excel-2/</guid>
+
+					<description><![CDATA[假设休息一个半小时： F3=TEXT(F2-1.5/24,&#038;...]]></description>
 		
 		
 		

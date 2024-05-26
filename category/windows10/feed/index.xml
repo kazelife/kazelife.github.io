@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Win10 &#8211; kazelife</title>
-	<atom:link href="/category/windows10/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://kazelife.com/category/windows10/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Sat, 25 May 2024 13:49:09 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 26 May 2024 08:45:50 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,12 +21,12 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
 		<title>Win10怎么内网穿透？</title>
-		<link>/windows10/how-to-set-up-port-forwarding-on-win10/</link>
+		<link>https://kazelife.com/windows10/how-to-set-up-port-forwarding-on-win10/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Fri, 17 May 2024 05:47:00 +0000</pubDate>
 				<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">/?p=832</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=832</guid>
 
 					<description><![CDATA[本文只介绍一种免费有效的方法，存在域名不稳定、无法自定义域名...]]></description>
 		
@@ -34,13 +34,14 @@
 		
 			</item>
 		<item>
-		<title>怎么移除Win10搜索左侧栏里的&#8221;推荐&#8221;？</title>
-		<link>/windows10/how-to-disable-recommended-in-windows-search/</link>
+		<title>Win10怎么移除搜索左侧栏里的&#8221;推荐&#8221;？</title>
+		<link>https://kazelife.com/windows10/how-to-disable-search-recommended-in-win10/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Tue, 26 Mar 2024 07:48:00 +0000</pubDate>
 				<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">/?p=71</guid>
+		<category><![CDATA[数位极简]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=71</guid>
 
 					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来...]]></description>
 		
@@ -49,12 +50,12 @@
 			</item>
 		<item>
 		<title>Win10怎么查看内网IP地址？</title>
-		<link>/windows10/how-to-find-your-local-ip-address-in-win10/</link>
+		<link>https://kazelife.com/windows10/how-to-find-your-local-ip-address-in-win10/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Sun, 12 Sep 2021 06:23:00 +0000</pubDate>
 				<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">/?p=819</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=819</guid>
 
 					<description><![CDATA[1. Win+R2. cmd，回车3. ipconfig，回...]]></description>
 		

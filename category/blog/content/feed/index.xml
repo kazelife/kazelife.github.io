@@ -9,10 +9,10 @@
 
 <channel>
 	<title>内容 &#8211; kazelife</title>
-	<atom:link href="/category/blog/content/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://kazelife.com/category/blog/content/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Sat, 25 May 2024 05:15:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 25 May 2024 16:47:58 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,13 +21,15 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
 		<title>为什么写了篇安装教程让我浑身不得劲？</title>
-		<link>/blog/content/write-unnecessary-guides-or-not/</link>
+		<link>https://kazelife.com/blog/write-unnecessary-guides-or-not/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Sat, 25 May 2024 04:54:43 +0000</pubDate>
 				<category><![CDATA[内容]]></category>
+		<category><![CDATA[博客]]></category>
+		<category><![CDATA[想法极简]]></category>
 		<category><![CDATA[选哪个]]></category>
-		<guid isPermaLink="false">/?p=675</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=675</guid>
 
 					<description><![CDATA[博客内容极简]]></description>
 		

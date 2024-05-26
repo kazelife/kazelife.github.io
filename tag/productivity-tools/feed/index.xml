@@ -9,10 +9,10 @@
 
 <channel>
 	<title>生产力工具 &#8211; kazelife</title>
-	<atom:link href="/tag/productivity-tools/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://kazelife.com/tag/productivity-tools/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Sat, 25 May 2024 15:52:30 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 26 May 2024 15:22:14 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,47 +20,82 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
-		<title>怎么创建你自己的AI聊天？【免费】【无需魔法】</title>
-		<link>/trigger/%e6%80%8e%e4%b9%88%e5%88%9b%e5%bb%ba%e4%bd%a0%e8%87%aa%e5%b7%b1%e7%9a%84ai%e8%81%8a%e5%a4%a9%ef%bc%9f%e3%80%90%e5%85%8d%e8%b4%b9%e3%80%91%e3%80%90%e6%97%a0%e9%9c%80%e9%ad%94%e6%b3%95%e3%80%91/</link>
+		<title>Calibre怎么自动翻译外语书籍？</title>
+		<link>https://kazelife.com/calibre/how-to-translate-foreign-books-automatically-in-calibre/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sat, 25 May 2024 15:02:15 +0000</pubDate>
-				<category><![CDATA[受不了xx了！]]></category>
+		<pubDate>Sun, 19 May 2024 15:53:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[受不了xx了！]]></category>
+		<category><![CDATA[数位极简]]></category>
 		<category><![CDATA[生产力工具]]></category>
-		<guid isPermaLink="false">/?p=888</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=864</guid>
 
-					<description><![CDATA[受不了问得太急被封号了！老子自己搭！ 免费API key申请...]]></description>
+					<description><![CDATA[受不了 显眼包译者对原文的摧残了！但我真的很需要看原文，但又...]]></description>
 		
 		
 		
 			</item>
 		<item>
-		<title>Calibre怎么自动翻译外语书籍？</title>
-		<link>/calibre/how-to-translate-foreign-books-automatically-in-calibre/</link>
+		<title>5分钟创建你自己的AI聊天【超简单+免费+能直连】</title>
+		<link>https://kazelife.com/blog/how-to-build-your-own-chatgpt/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sun, 19 May 2024 15:53:00 +0000</pubDate>
-				<category><![CDATA[Calibre]]></category>
+		<pubDate>Sat, 18 May 2024 08:19:15 +0000</pubDate>
+				<category><![CDATA[功能]]></category>
+		<category><![CDATA[博客]]></category>
 		<category><![CDATA[受不了xx了！]]></category>
+		<category><![CDATA[生产力工具]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=888</guid>
+
+					<description><![CDATA[受不了 问得太急就被镜像站封号了！老子自己搭！ 免费API ...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>我选择Calibre的20条理由</title>
+		<link>https://kazelife.com/calibre/20-reasons-why-kaze-choose-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 11 May 2024 01:02:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[数位极简]]></category>
+		<category><![CDATA[生产力工具]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=1060</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么同步笔记？</title>
+		<link>https://kazelife.com/calibre/how-to-sync-highlights-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 08:18:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
 		<category><![CDATA[Calibre使用技巧]]></category>
 		<category><![CDATA[数位极简]]></category>
 		<category><![CDATA[生产力工具]]></category>
-		<guid isPermaLink="false">/?p=864</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=1069</guid>
 
-					<description><![CDATA[受不了显眼包译者对原文的摧残了！但我真的很需要看原文，但又死...]]></description>
+					<description><![CDATA[kaze的劝退五连问（可以跳过） 取决于你在哪里读？用什么读...]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>PDF阅读器-免费简单好用-Chrome</title>
-		<link>/chrome/free-simple-usable-pdf-reader/</link>
+		<link>https://kazelife.com/chrome/free-simple-usable-pdf-reader/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Mon, 25 Mar 2024 14:19:00 +0000</pubDate>
 				<category><![CDATA[Chrome]]></category>
 		<category><![CDATA[生产力工具]]></category>
-		<guid isPermaLink="false">/?p=725</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=725</guid>
 
 					<description><![CDATA[24/03/25用calibre阅读pdf好难受，要是能像在...]]></description>
 		
@@ -69,23 +104,23 @@
 			</item>
 		<item>
 		<title>电子书阅读器-免费开源好用-Calibre</title>
-		<link>/calibre/free-open-source-usable-ebook-reader/</link>
+		<link>https://kazelife.com/calibre/free-open-source-usable-ebook-reader/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Mon, 19 Feb 2024 15:24:00 +0000</pubDate>
 				<category><![CDATA[Calibre]]></category>
 		<category><![CDATA[受不了xx了！]]></category>
 		<category><![CDATA[生产力工具]]></category>
-		<guid isPermaLink="false">/?p=739</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=739</guid>
 
-					<description><![CDATA[受不了图书吃我笔记了！ 软件名称 大小(M) 启动速度 极简...]]></description>
+					<description><![CDATA[受不了 图书吃我笔记了！甚至不让批量导出！ 电子书阅读器评测...]]></description>
 		
 		
 		
 			</item>
 		<item>
 		<title>电子表格-免费开源好用-LibreOffice Calc</title>
-		<link>/excel/free-simple-usable-excel/</link>
+		<link>https://kazelife.com/excel/free-simple-usable-excel/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
 		<pubDate>Tue, 16 May 2023 23:59:00 +0000</pubDate>
@@ -93,7 +128,7 @@
 		<category><![CDATA[受不了xx了！]]></category>
 		<category><![CDATA[生产力工具]]></category>
 		<category><![CDATA[选哪个]]></category>
-		<guid isPermaLink="false">/?p=687</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=687</guid>
 
 					<description><![CDATA[受不了wps了！ 23/05/17契机：需求来自日程安排的时...]]></description>
 		
