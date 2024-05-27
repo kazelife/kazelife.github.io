@@ -12,7 +12,7 @@
 	<atom:link href="https://kazelife.com/category/excel/wps/feed/" rel="self" type="application/rss+xml" />
 	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Sun, 26 May 2024 08:47:14 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 27 May 2024 05:54:58 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -58,6 +58,20 @@
 		<guid isPermaLink="false">https://kazelife.com/excel/how-to-centering-numeric-values-in-excel-2/</guid>
 
 					<description><![CDATA[水平居中→分散对齐]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>wps怎么禁用自动加超链接？</title>
+		<link>https://kazelife.com/excel/wps/how-to-disable-automatic-hyperlinks-in-wps/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Wed, 22 Feb 2023 12:45:00 +0000</pubDate>
+				<category><![CDATA[wps]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=368</guid>
+
+					<description><![CDATA[左上角文件→选项→编辑→取消勾选键入时将Internet及网...]]></description>
 		
 		
 		
@@ -143,20 +157,6 @@
 		<guid isPermaLink="false">https://kazelife.com/excel/how-to-sum-time-in-excel-2/</guid>
 
 					<description><![CDATA[左上角“文件”→“选项”→“重新计算”→勾选“使用1904日...]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>wps计算时薪时怎么减去休息时间？</title>
-		<link>https://kazelife.com/excel/wps/how-to-minus-time-when-calculate-hourly-rate-in-wps/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sat, 22 Oct 2022 01:12:00 +0000</pubDate>
-				<category><![CDATA[wps]]></category>
-		<guid isPermaLink="false">https://kazelife.com/excel/how-to-calculate-hourly-rate-in-excel-2/</guid>
-
-					<description><![CDATA[假设休息一个半小时： F3=TEXT(F2-1.5/24,&#038;...]]></description>
 		
 		
 		

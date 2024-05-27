@@ -12,7 +12,7 @@
 	<atom:link href="https://kazelife.com/category/wordpress/feed/" rel="self" type="application/rss+xml" />
 	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Fri, 24 May 2024 16:56:05 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 27 May 2024 13:47:29 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -72,7 +72,7 @@
 				<category><![CDATA[WordPress]]></category>
 		<guid isPermaLink="false">https://kazelife.com/?p=179</guid>
 
-					<description><![CDATA[Step1: 添加链接 Step2: 编辑链接 Step3:...]]></description>
+					<description><![CDATA[Step1：添加链接 Step2：编辑链接 Step3：展开...]]></description>
 		
 		
 		

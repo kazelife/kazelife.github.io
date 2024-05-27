@@ -12,7 +12,7 @@
 	<atom:link href="https://kazelife.com/tag/digital-minimalism/feed/" rel="self" type="application/rss+xml" />
 	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Sun, 26 May 2024 15:22:14 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 27 May 2024 14:58:34 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -71,6 +71,22 @@
 		
 			</item>
 		<item>
+		<title>Calibre怎么让编辑元数据界面干净点？</title>
+		<link>https://kazelife.com/calibre/how-to-minimize-metadata-edit-interface-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Thu, 09 May 2024 16:54:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[数位极简]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=1327</guid>
+
+					<description><![CDATA[解决方法 请根据自己的需求来选择，你觉得舒服的才是最好的！ ...]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Calibre怎么自定义工具栏/菜单栏？</title>
 		<link>https://kazelife.com/calibre/how-to-display-less-menu-items-in-calibre/</link>
 		
@@ -120,6 +136,22 @@
 		
 			</item>
 		<item>
+		<title>Calibre怎么一键删除所有自带标签？</title>
+		<link>https://kazelife.com/calibre/how-to-bulk-delete-tags-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Sat, 04 May 2024 00:55:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<category><![CDATA[数位极简]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=1317</guid>
+
+					<description><![CDATA[适用情形 方法步骤]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Calibre怎么自定义栏目？</title>
 		<link>https://kazelife.com/calibre/how-to-custom-columns-in-calibre/</link>
 		
@@ -136,32 +168,17 @@
 		
 			</item>
 		<item>
-		<title>Calibre怎么自定义选择/长按后的菜单？</title>
-		<link>https://kazelife.com/calibre/how-to-custom-selection-popup-menu-in-calibre/</link>
+		<title>Calibre怎么自定义多级分类？</title>
+		<link>https://kazelife.com/calibre/how-to-manage-subgroups-in-calibre/</link>
 		
 		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sun, 14 Apr 2024 07:22:00 +0000</pubDate>
+		<pubDate>Wed, 01 May 2024 11:26:00 +0000</pubDate>
 				<category><![CDATA[Calibre]]></category>
 		<category><![CDATA[Calibre使用技巧]]></category>
 		<category><![CDATA[数位极简]]></category>
-		<guid isPermaLink="false">https://kazelife.com/?p=779</guid>
+		<guid isPermaLink="false">https://kazelife.com/?p=1185</guid>
 
-					<description><![CDATA[通过轻松简单的设置，使得阅读时长按/选择后的菜单只有记笔记和高亮两个按钮，更好点，更省心]]></description>
-		
-		
-		
-			</item>
-		<item>
-		<title>Win10怎么移除搜索左侧栏里的&#8221;推荐&#8221;？</title>
-		<link>https://kazelife.com/windows10/how-to-disable-search-recommended-in-win10/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 07:48:00 +0000</pubDate>
-				<category><![CDATA[Win10]]></category>
-		<category><![CDATA[数位极简]]></category>
-		<guid isPermaLink="false">https://kazelife.com/?p=71</guid>
-
-					<description><![CDATA[无法直接移除，但可以用&#8221;最近&#8221;覆盖来...]]></description>
+					<description><![CDATA[效果图 准备工作 选择一：用自定义栏目-分类 选择二：用现成...]]></description>
 		
 		
 		
