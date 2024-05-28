@@ -12,7 +12,7 @@
 	<atom:link href="https://kazelife.com/category/calibre/feed/" rel="self" type="application/rss+xml" />
 	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Mon, 27 May 2024 14:57:28 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 28 May 2024 04:00:18 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,7 +31,7 @@
 		<category><![CDATA[选哪个]]></category>
 		<guid isPermaLink="false">https://kazelife.com/?p=1190</guid>
 
-					<description><![CDATA[看前提醒：本文用到的功能叫&#8221;书库&#8220;，...]]></description>
+					<description><![CDATA[看前提醒 kaze的需求 希望能归档！ 就是我判断完好坏和看...]]></description>
 		
 		
 		
@@ -113,22 +113,6 @@
 		
 			</item>
 		<item>
-		<title>我选择Calibre的20条理由</title>
-		<link>https://kazelife.com/calibre/20-reasons-why-kaze-choose-calibre/</link>
-		
-		<dc:creator><![CDATA[kaze]]></dc:creator>
-		<pubDate>Sat, 11 May 2024 01:02:00 +0000</pubDate>
-				<category><![CDATA[Calibre]]></category>
-		<category><![CDATA[数位极简]]></category>
-		<category><![CDATA[生产力工具]]></category>
-		<guid isPermaLink="false">https://kazelife.com/?p=1060</guid>
-
-					<description><![CDATA[]]></description>
-		
-		
-		
-			</item>
-		<item>
 		<title>Calibre怎么一键直达作者博客？</title>
 		<link>https://kazelife.com/calibre/how-to-access-to-authors-blog-in-one-click/</link>
 		
@@ -169,6 +153,21 @@
 		<guid isPermaLink="false">https://kazelife.com/?p=1085</guid>
 
 					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Calibre怎么调整行间距？</title>
+		<link>https://kazelife.com/calibre/how-to-adjust-line-height-in-calibre/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Fri, 10 May 2024 05:08:00 +0000</pubDate>
+				<category><![CDATA[Calibre]]></category>
+		<category><![CDATA[Calibre使用技巧]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=1093</guid>
+
+					<description><![CDATA[丑话说在前头 我不可能靠一篇文章教会你CSS，顶多就给个思路...]]></description>
 		
 		
 		

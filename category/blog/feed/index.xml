@@ -12,7 +12,7 @@
 	<atom:link href="https://kazelife.com/category/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>https://kazelife.com</link>
 	<description>make life easier</description>
-	<lastBuildDate>Sun, 26 May 2024 08:44:26 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 28 May 2024 05:30:27 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,20 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
+		<title>Dynadot怎么使用免费的域名邮箱？</title>
+		<link>https://kazelife.com/blog/how-to-use-free-domain-email-in-dynadot/</link>
+		
+		<dc:creator><![CDATA[kaze]]></dc:creator>
+		<pubDate>Tue, 28 May 2024 05:13:42 +0000</pubDate>
+				<category><![CDATA[博客]]></category>
+		<guid isPermaLink="false">https://kazelife.com/?p=1719</guid>
+
+					<description><![CDATA[我的需求 并不是预想中的自动生效，测试了收发都失败了，想要能...]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>为什么写了篇安装教程让我浑身不得劲？</title>
 		<link>https://kazelife.com/blog/write-unnecessary-guides-or-not/</link>
 		
