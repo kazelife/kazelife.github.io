@@ -1,0 +1,10 @@
+Sitemap: https://kazelife.com/wp-sitemap.xml
+
+User-agent: *
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-json/
+Disallow: /feed/
+Disallow: /comments/
+Disallow: /author/
+
