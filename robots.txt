@@ -7,4 +7,6 @@ Disallow: /wp-json/
 Disallow: /feed/
 Disallow: /comments/
 Disallow: /author/
+Disallow: /wp-sitemap-users-1.xml
+
 
