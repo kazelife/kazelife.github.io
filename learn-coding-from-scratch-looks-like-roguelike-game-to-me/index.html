@@ -58,6 +58,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
+<link rel="stylesheet" id="toc-screen-css" href="https://kazelife.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2406" media="all">
 <link rel="stylesheet" id="vskb-style-css" href="https://kazelife.com/wp-content/plugins/very-simple-knowledge-base/css/vskb-style.min.css?ver=6.5.4" media="all">
 <link rel="stylesheet" id="sinatra-styles-css" href="https://kazelife.com/wp-content/themes/sinatra/assets/css/style.min.css?ver=1.3" media="all">
 <!--[if IE]>
@@ -290,10 +291,13 @@ flexibility(document.documentElement);
 		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
 	<span class="screen-reader-text">Scroll to Top</span>
 </a><!-- END #sinatra-scroll-to-top -->
-<link rel="stylesheet" id="toc-screen-css" href="https://kazelife.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2309" media="all">
 <script src="https://kazelife.com/wp-content/plugins/heroic-glossary/dist/ht-glossary-frontend.js?ver=350" id="htgb-custom-js-js"></script>
+<script id="toc-front-js-extra">
+var tocplus = {"smooth_scroll":"1","visibility_show":"\u5c55\u5f00","visibility_hide":"\u6536\u8d77","width":"Auto"};
+</script>
+<script src="https://kazelife.com/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2406" id="toc-front-js"></script>
 <script id="sinatra-js-js-extra">
-var sinatra_vars = {"ajaxurl":"https:\/\/kazelife.com\/wp-admin\/admin-ajax.php","nonce":"30c0579ca4","responsive-breakpoint":"0","sticky-header":{"enabled":false,"hide_on":[""]},"strings":{"comments_toggle_show":"Leave a Comment","comments_toggle_hide":"Hide Comments"}};
+var sinatra_vars = {"ajaxurl":"https:\/\/kazelife.com\/wp-admin\/admin-ajax.php","nonce":"a3c60aa765","responsive-breakpoint":"0","sticky-header":{"enabled":false,"hide_on":[""]},"strings":{"comments_toggle_show":"Leave a Comment","comments_toggle_hide":"Hide Comments"}};
 </script>
 <script src="https://kazelife.com/wp-content/themes/sinatra/assets/js/sinatra.min.js?ver=1.3" id="sinatra-js-js"></script>
 <script id="wd-asl-ajaxsearchlite-js-before">
@@ -305,10 +309,6 @@ window.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {}; window.ASL.wp_
 <script src="https://kazelife.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-autocomplete.js?ver=4762" id="wd-asl-ajaxsearchlite-autocomplete-js"></script>
 <script src="https://kazelife.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-load.js?ver=4762" id="wd-asl-ajaxsearchlite-load-js"></script>
 <script src="https://kazelife.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-wrapper.js?ver=4762" id="wd-asl-ajaxsearchlite-wrapper-js"></script>
-<script id="toc-front-js-extra">
-var tocplus = {"smooth_scroll":"1","visibility_show":"\u5c55\u5f00","visibility_hide":"\u6536\u8d77","width":"Auto"};
-</script>
-<script src="https://kazelife.com/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2309" id="toc-front-js"></script>
 	<script>
 	!function(){var e=-1<navigator.userAgent.toLowerCase().indexOf("webkit"),t=-1<navigator.userAgent.toLowerCase().indexOf("opera"),n=-1<navigator.userAgent.toLowerCase().indexOf("msie");(e||t||n)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var e,t=location.hash.substring(1);/^[A-z0-9_-]+$/.test(t)&&(e=document.getElementById(t))&&(/^(?:a|select|input|button|textarea)$/i.test(e.tagName)||(e.tabIndex=-1),e.focus())},!1)}();
 	</script>
