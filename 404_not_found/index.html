@@ -65,9 +65,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <!--[if IE]>
 <link rel='stylesheet' id='sinatra-ie-css' href='https://kazelife.com/wp-content/themes/sinatra/assets/css/compatibility/ie.min.css?ver=1.3' media='all' />
 <![endif]-->
-<link rel='stylesheet' id='sinatra-dynamic-styles-css' href='https://kazelife.com/wp-content/uploads/sinatra/dynamic-styles.css?ver=1718633512' media='all' />
+<link rel='stylesheet' id='sinatra-dynamic-styles-css' href='https://kazelife.com/wp-content/uploads/sinatra/dynamic-styles.css?ver=1718633971' media='all' />
 <link rel='stylesheet' id='wpdreams-asl-basic-css' href='https://kazelife.com/wp-content/plugins/ajax-search-lite/css/style.basic.css?ver=4.12' media='all' />
 <link rel='stylesheet' id='wpdreams-asl-instance-css' href='https://kazelife.com/wp-content/plugins/ajax-search-lite/css/style-curvy-black.css?ver=4.12' media='all' />
+<link rel='stylesheet' id='bsearch-style-css' href='https://kazelife.com/wp-content/plugins/better-search/includes/css/bsearch-styles.min.css?ver=3.3.0' media='all' />
 <script src="https://kazelife.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://kazelife.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <!--[if IE]>
@@ -204,12 +205,16 @@ flexibility(document.documentElement);
 	<div class="page-content si-entry">
 		<p>We couldn&rsquo;t find the page you are looking for. Perhaps you can try searching:</p>
 
-		<div id="search-live-398781004" class="search-live floating"><div class="search-live-form"><form role="search" id="search-live-form-398781004" class="search-live-form" action="https://kazelife.com/" method="get"><input id="search-live-field-398781004" name="s" type="text" class="search-live-field" placeholder="Search &hellip;" autocomplete="off" title="Search for:" value="" /><input type="hidden" name="ixsl" value="1"/><noscript><button type="submit">Search</button></noscript></form></div><div id="search-live-results-398781004" class="search-live-results"><div id="search-live-results-content-398781004" class="search-live-results-content" style=""></div></div></div><script type="text/javascript">document.addEventListener( "DOMContentLoaded", function() {if ( typeof jQuery !== "undefined" ) {jQuery(document).ready(function(){jQuery("#search-live-field-398781004").typeWatch( {
-				callback: function (value) { ixsl.searchLive('search-live-field-398781004', 'search-live-398781004', 'search-live-398781004 div.search-live-results-content', 'https://kazelife.com/wp-admin/admin-ajax.php', value, {no_results:"",dynamic_focus:true}); },
-				wait: 500,
-				highlight: true,
-				captureLength: 1
-			} );ixsl.navigate("search-live-field-398781004","search-live-results-398781004");ixsl.dynamicFocus("search-live-398781004","search-live-results-content-398781004");});}});</script>
+		
+<form role="search" method="get" class="search-form" action="https://kazelife.com/">
+	<div>
+		<input type="search" class="search-field" aria-label="Enter search keywords" placeholder="Search" value="" name="s" />
+		
+		<button role="button" type="submit" class="search-submit" aria-label="Search">
+			<svg class="si-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M28.962 26.499l-4.938-4.938c1.602-2.002 2.669-4.671 2.669-7.474 0-6.673-5.339-12.012-12.012-12.012s-12.012 5.339-12.012 12.012c0 6.673 5.339 12.012 12.012 12.012 2.803 0 5.472-0.934 7.474-2.669l4.938 4.938c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868zM5.339 14.087c0-5.205 4.137-9.342 9.342-9.342s9.342 4.137 9.342 9.342c0 2.536-1.068 4.938-2.669 6.54 0 0 0 0 0 0s0 0 0 0c-1.735 1.735-4.004 2.669-6.54 2.669-5.339 0.133-9.476-4.004-9.476-9.209z"></path></svg>		</button>
+	</div>
+</form>
+
 		<a href="https://kazelife.com/" class="si-btn btn-left-icon btn-reveal" role="button">
 			<span>Return to Home</span>
 			<svg class="si-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M25.358 14.087h-15.482l7.074-7.074c0.534-0.534 0.534-1.335 0-1.868s-1.335-0.534-1.868 0l-9.342 9.342c-0.133 0.133-0.267 0.267-0.267 0.4-0.133 0.267-0.133 0.667 0 1.068 0.133 0.133 0.133 0.267 0.267 0.4l9.342 9.342c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868l-7.074-7.074h15.482c0.801 0 1.335-0.534 1.335-1.335s-0.534-1.335-1.335-1.335z"></path></svg>		</a>
@@ -238,7 +243,6 @@ flexibility(document.documentElement);
 		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
 	<span class="screen-reader-text">Scroll to Top</span>
 </a><!-- END #sinatra-scroll-to-top -->
-<link rel='stylesheet' id='search-live-css' href='https://kazelife.com/wp-content/plugins/search-live/css/search-live.css?ver=1.15.0' media='all' />
 <script src="https://kazelife.com/wp-content/plugins/heroic-glossary/dist/ht-glossary-frontend.js?ver=350" id="htgb-custom-js-js"></script>
 <script id="toc-front-js-extra">
 var tocplus = {"smooth_scroll":"1","visibility_show":"\u5c55\u5f00","visibility_hide":"\u6536\u8d77","width":"Auto"};
@@ -257,8 +261,6 @@ window.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {}; window.ASL.wp_
 <script src="https://kazelife.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-autocomplete.js?ver=4762" id="wd-asl-ajaxsearchlite-autocomplete-js"></script>
 <script src="https://kazelife.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-load.js?ver=4762" id="wd-asl-ajaxsearchlite-load-js"></script>
 <script src="https://kazelife.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-wrapper.js?ver=4762" id="wd-asl-ajaxsearchlite-wrapper-js"></script>
-<script src="https://kazelife.com/wp-content/plugins/search-live/js/jquery.typewatch.min.js?ver=1.15.0" id="typewatch-js"></script>
-<script src="https://kazelife.com/wp-content/plugins/search-live/js/search-live.min.js?ver=1.15.0" id="search-live-js"></script>
 	<script>
 	!function(){var e=-1<navigator.userAgent.toLowerCase().indexOf("webkit"),t=-1<navigator.userAgent.toLowerCase().indexOf("opera"),n=-1<navigator.userAgent.toLowerCase().indexOf("msie");(e||t||n)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var e,t=location.hash.substring(1);/^[A-z0-9_-]+$/.test(t)&&(e=document.getElementById(t))&&(/^(?:a|select|input|button|textarea)$/i.test(e.tagName)||(e.tabIndex=-1),e.focus())},!1)}();
 	</script>
