@@ -169,66 +169,75 @@ flexibility(document.documentElement);
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>&#31449;&#20869;&#23548;&#33322;</title>
   <style>
-    .button-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 50px 130px;
-      margin: 0 4% 4% 4%;
-    }
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px 130px;
+  margin: 0 3% 3% 3%;
+}
 
-    .button-grid a {
-      text-decoration: none;
-    }
+@media (max-width: 768px) {
+  .button-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  .button-press {
+    flex-grow: 1;
+  }
+}
 
-    button {
-      width: 100%;
-      height: 23vh;
-      background-color: transparent;
-      /* color: #333; */
-      font-size: 1.3rem;
-      /* transition: background-color 0.3s; */
-      overflow: hidden;
-      white-space: nowrap;
-      padding: 0.5rem 1rem;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      /* border: 2px solid #ccc; */
-      border-radius: 0.8rem;
-      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-      border: 1px solid rgba(0, 0, 0, 0);
-      cursor: pointer;
-      transition: transform 0.5s;
-    }
+.button-grid a {
+  text-decoration: none;
+}
 
-    button:hover {
-      box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
-      border: 1px solid rgba(0, 0, 0, 0.1) !important;
-      transform: translateY(0.5em);
-    }
+.button-press {
+  width: 100%;
+  height: 8rem;
+  background-color: transparent;
+  font-size: 1.3rem;
+  transition: background-color 0.3s;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
 
-    button svg {
-      transition: transform 0.5s;
-    }
+.button-press:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(0.5em);
+}
 
-    button:hover svg {
-      transform: scale(0.9);
-      fill: #333333;
-    }
+.button-press svg {
+  transition: transform 0.5s;
+}
+
+.button-press:hover svg {
+  transform: scale(0.9);
+  fill: #333333;
+}
+
   </style>
 
 
 
   <div class="button-grid">
     <a href="https://kazelife.com/category/life/" target="_blank" rel="noreferrer noopener nofollow">
-      <button style="border: 2px solid #ff7d73; color: #ff7d73;">
+      <button class="button-press" style="border: 2px solid #ff7d73; color: #ff7d73;">
         <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M15 8C8.92487 8 4 12.9249 4 19C4 30 17 40 24 42.3262C31 40 44 30 44 19C44 12.9249 39.0751 8 33 8C29.2797 8 25.9907 9.8469 24 12.6738C22.0093 9.8469 18.7203 8 15 8Z" fill="none" stroke="#ff7d73" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
@@ -236,14 +245,14 @@ flexibility(document.documentElement);
       </button>
     </a>
     <a href="https://kazelife.com/category/safe/" target="_blank" rel="noreferrer noopener nofollow">
-      <button>
+      <button class="button-press">
         <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 8.25564L24.0086 3L42 8.25564V19.0337C42 30.3622 34.7502 40.4194 24.0026 44.0005C13.2521 40.4195 6 30.36 6 19.0287V8.25564Z" fill="none" stroke="#53988b" stroke-width="4" stroke-linejoin="round"></path>
         </svg>
       </button>
     </a>
     <a href="https://kazelife.com/category/tech/" target="_blank" rel="noreferrer noopener nofollow">
-      <button>
+      <button class="button-press">
         <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M44 8H4V38H19L24 43L29 38H44V8Z" fill="none" stroke="#F7E68A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
           <path d="M24 23V32" stroke="#F7E68A" stroke-width="4" stroke-linecap="round"></path>
@@ -252,7 +261,7 @@ flexibility(document.documentElement);
       </button>
     </a>
     <a href="https://kazelife.com/category/blog/" target="_blank" rel="noreferrer noopener nofollow">
-      <button>
+      <button class="button-press">
         <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M5 7H16C20.4183 7 24 10.5817 24 15V42C24 38.6863 21.3137 36 18 36H5V7Z" fill="none" stroke="#4a90e2" stroke-width="4" stroke-linejoin="round"></path>
           <path d="M43 7H32C27.5817 7 24 10.5817 24 15V42C24 38.6863 26.6863 36 30 36H43V7Z" fill="none" stroke="#4a90e2" stroke-width="4" stroke-linejoin="round"></path>
@@ -264,9 +273,7 @@ flexibility(document.documentElement);
 
 
 
-
-
-<div class="wp-block-columns is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+</div></article></main></div></div></div></div></body></html><html><div class="wp-block-columns is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-text-color has-link-color wp-element-button" href="https://kazelife.com/category/life/" style="color:#ff7d73"><svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 8C8.92487 8 4 12.9249 4 19C4 30 17 40 24 42.3262C31 40 44 30 44 19C44 12.9249 39.0751 8 33 8C29.2797 8 25.9907 9.8469 24 12.6738C22.0093 9.8469 18.7203 8 15 8Z" fill="none" stroke="#ff7d73" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path></svg>&#33258;&#25105;&#25104;&#38271;</a></div>
@@ -307,26 +314,26 @@ flexibility(document.documentElement);
 <div class="wp-block-buttons is-nowrap is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link has-text-color has-link-color wp-element-button" href="https://kazelife.com/about/#sponsors" style="color:#f5a623" target="_blank" rel="noreferrer noopener nofollow">&#26412;&#31449;&#24320;&#21457;&#20013;&hellip;&hellip;&#25903;&#25345;&#19968;&#19979; &raquo;<svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4V12" stroke="#f5a623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M22 22L42 26L36 30L42 36L36 42L30 36L26 42L22 22Z" fill="none" stroke="#f5a623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M38.1421 9.85789L32.4853 15.5147" stroke="#f5a623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.85787 38.1421L15.5147 32.4853" stroke="#f5a623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 24H12" stroke="#f5a623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.85795 9.85787L15.5148 15.5147" stroke="#f5a623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div>
 </div>
-</div><!-- END .entry-content -->
+<!-- END .entry-content -->
 
 
-</article><!-- #post-3189 -->
+<!-- #post-3189 -->
 
-		</main><!-- #content .site-content -->
-
-		
-	</div><!-- #primary .content-area -->
-
-	
-</div><!-- END .si-container -->
+		<!-- #content .site-content -->
 
 		
-	</div><!-- #main .site-main -->
+	<!-- #primary .content-area -->
+
+	
+<!-- END .si-container -->
+
+		
+	<!-- #main .site-main -->
 	
 	
 	
 	
-</div><!-- END #page -->
+<!-- END #page -->
 
 <a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
 	<span class="si-scroll-icon" aria-hidden="true">
@@ -349,6 +356,6 @@ var sinatra_vars = {"ajaxurl":"https:\/\/kazelife.com\/wp-admin\/admin-ajax.php"
 	!function(){var e=-1<navigator.userAgent.toLowerCase().indexOf("webkit"),t=-1<navigator.userAgent.toLowerCase().indexOf("opera"),n=-1<navigator.userAgent.toLowerCase().indexOf("msie");(e||t||n)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var e,t=location.hash.substring(1);/^[A-z0-9_-]+$/.test(t)&&(e=document.getElementById(t))&&(/^(?:a|select|input|button|textarea)$/i.test(e.tagName)||(e.tabIndex=-1),e.focus())},!1)}();
 	</script>
 	
-</body>
+
 </html>
 <!-- Powered by Staatic (https://staatic.com/) -->
