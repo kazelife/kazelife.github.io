@@ -70,7 +70,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="stylesheet" id="toc-screen-css" href="https://kazelife.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2406" media="all">
 <link rel="stylesheet" id="vskb-style-css" href="https://kazelife.com/wp-content/plugins/very-simple-knowledge-base/css/vskb-style.min.css?ver=6.5.5" media="all">
 <link rel="stylesheet" id="child-style-css" href="https://kazelife.com/wp-content/themes/sinatra-child/style.css?ver=6.5.5" media="all">
-<link rel="stylesheet" id="highlightcss-css" href="https://kazelife.com/wp-content/themes/sinatra-child/github-dark.css?ver=6.5.5" media="all">
 <link rel="stylesheet" id="sinatra-styles-css" href="https://kazelife.com/wp-content/themes/sinatra/assets/css/style.min.css?ver=1.3" media="all">
 <!--[if IE]>
 <link rel='stylesheet' id='sinatra-ie-css' href='https://kazelife.com/wp-content/themes/sinatra/assets/css/compatibility/ie.min.css?ver=1.3' media='all' />
@@ -78,10 +77,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="stylesheet" id="sinatra-dynamic-styles-css" href="https://kazelife.com/wp-content/uploads/sinatra/dynamic-styles.css?ver=1720100122" media="all">
 <script src="https://kazelife.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://kazelife.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script src="https://kazelife.com/wp-content/themes/sinatra-child/highlight.min.js?ver=6.5.5" id="highlightjs-js"></script>
-<script id="highlightjs-js-after">
-hljs.highlightAll();
-</script>
 <!--[if IE]>
 <script src="https://kazelife.com/wp-content/themes/sinatra/assets/js/vendors/flexibility.min.js?ver=1.3" id="sinatra-flexibility-js"></script>
 <script id="sinatra-flexibility-js-after">
@@ -332,6 +327,7 @@ add_filter( 'wp_sitemaps_add_provider', function ( $provider, $name ) {
 		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
 	<span class="screen-reader-text">Scroll to Top</span>
 </a><!-- END #sinatra-scroll-to-top -->
+<link rel="stylesheet" id="highlightcss-css" href="https://kazelife.com/wp-content/themes/sinatra-child/github-dark.css?ver=6.5.5" media="all">
 <script src="https://kazelife.com/wp-content/plugins/heroic-glossary/dist/ht-glossary-frontend.js?ver=350" id="htgb-custom-js-js"></script>
 <script id="toc-front-js-extra">
 var tocplus = {"smooth_scroll":"1","visibility_show":"\u5c55\u5f00","visibility_hide":"\u6536\u8d77","width":"Auto","smooth_scroll_offset":"25"};
@@ -341,6 +337,10 @@ var tocplus = {"smooth_scroll":"1","visibility_show":"\u5c55\u5f00","visibility_
 var sinatra_vars = {"ajaxurl":"https:\/\/kazelife.com\/wp-admin\/admin-ajax.php","nonce":"a6894d9907","responsive-breakpoint":"830","sticky-header":{"enabled":false,"hide_on":[""]},"strings":{"comments_toggle_show":"Leave a Comment","comments_toggle_hide":"Hide Comments"}};
 </script>
 <script src="https://kazelife.com/wp-content/themes/sinatra/assets/js/sinatra.min.js?ver=1.3" id="sinatra-js-js"></script>
+<script src="https://kazelife.com/wp-content/themes/sinatra-child/highlight.min.js?ver=6.5.5" id="highlightjs-js"></script>
+<script id="highlightjs-js-after">
+hljs.highlightAll();
+</script>
 	<script>
 	!function(){var e=-1<navigator.userAgent.toLowerCase().indexOf("webkit"),t=-1<navigator.userAgent.toLowerCase().indexOf("opera"),n=-1<navigator.userAgent.toLowerCase().indexOf("msie");(e||t||n)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var e,t=location.hash.substring(1);/^[A-z0-9_-]+$/.test(t)&&(e=document.getElementById(t))&&(/^(?:a|select|input|button|textarea)$/i.test(e.tagName)||(e.tabIndex=-1),e.focus())},!1)}();
 	</script>
