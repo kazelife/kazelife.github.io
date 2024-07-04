@@ -3,6 +3,11 @@
  * Template: sinatra
  */
 
+pre.wp-block-code {
+  border: none;
+  padding: 0;
+}
+
 .related_posts li {
   list-style: circle;
   font-size: 1.1rem;
