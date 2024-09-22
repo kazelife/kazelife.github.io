@@ -17,7 +17,7 @@
 	<xsl:variable name="has-priority"   select="count( /sitemap:urlset/sitemap:url/sitemap:priority )"   />
 
 	<xsl:template match="/">
-		<html lang="zh-CN">
+		<html lang="zh-Hans">
 			<head>
 				<title>XML 站点地图</title>
 				<style>

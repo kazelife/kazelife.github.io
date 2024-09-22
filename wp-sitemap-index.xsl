@@ -15,7 +15,7 @@
 	<xsl:variable name="has-lastmod" select="count( /sitemap:sitemapindex/sitemap:sitemap/sitemap:lastmod )" />
 
 	<xsl:template match="/">
-		<html lang="zh-CN">
+		<html lang="zh-Hans">
 			<head>
 				<title>XML 站点地图</title>
 				<style>
