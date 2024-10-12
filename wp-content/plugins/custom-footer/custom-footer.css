@@ -1,0 +1,17 @@
+.custom-footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.custom-footer p {
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.custom-footer p strong {
+  font-weight: bold;
+}
